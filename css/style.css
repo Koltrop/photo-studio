@@ -1,0 +1,308 @@
+.logo {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+.container {
+    max-width: 1920px;
+    width: 100%;
+    padding-left: 127px;
+    padding-right: 127px;
+}
+
+header {
+    padding-top: 78px;
+}
+
+.menu {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.563rem;
+    text-transform: uppercase;
+}
+
+.menu-item-active {
+    border-bottom: #005BDE;
+    border-bottom-width: 0.063rem;
+    border-bottom-style: solid;
+    width: fit-content;
+}
+
+.badge {
+    color: black;
+}
+
+.b-1 {
+    background: #005BDE;
+    border: 1.5px solid #005BDE;
+    box-sizing: border-box;
+    border-radius: 34.5px;
+    padding: 15px 20px;
+    color: #ffffff;
+}
+
+footer {
+    background: #005BDE;
+    padding-bottom: 91px;
+    padding-top: 66px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.f-cont-1 {
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 56px;
+}
+
+.f-cont-2 {
+    font-size: 5.313rem;
+    line-height: 6.063rem;
+    margin-bottom: 53px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.item-menu-footer-2 {
+    font-size: 2.188rem;
+    line-height: 3.25rem;
+    text-transform: uppercase;
+    margin-top: 53px;
+}
+
+.copy {
+    width: 161px;
+    height: auto;
+}
+
+.f-cont-3 {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    margin-bottom: 24px;
+}
+
+.f-cont-4 {
+    font-weight: normal;
+    font-size: 1.813rem;
+    line-height: 2.688rem;
+}
+
+.f-2 {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 767px) {
+    .logo {
+        max-width: 32px;
+        width: auto;
+        height: auto;
+    }
+    .container {
+        max-width: 100%;
+        width: auto;
+        padding-left: 6.37%;
+        padding-right: 6.37%;
+    }
+    header {
+        padding-top: 7.54%;
+    }
+    .menu {
+        font-size: 1.9rem;
+        line-height: 2.813rem;
+    }
+    .b-1 {
+        border: 0.80px solid #005BDE;
+        padding: 0px 4px;
+        font-size: 0.5rem;
+        border-radius: 22px;
+    }
+    .arrow {
+        width: 20px;
+        height: auto;
+    }
+    .movil-1 {
+        margin-left: 33%;
+    }
+    .offcanvas-body {
+        margin-top: 160px;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, 0);
+        border: none;
+    }
+    .invert {
+        filter: invert(100%);
+    }
+    .item-menu-footer {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 19px;
+        color: #005BDE;
+        text-transform: uppercase;
+    }
+    .offcanvas {
+        padding-left: 4.20%;
+        padding-right: 4.20%;
+        padding-bottom: 7.54%;
+    }
+    .offcanvas-header {
+        padding-top: 7.54%;
+    }
+    footer {
+        padding-top: 6.1%;
+        padding-bottom: 3.71%;
+    }
+    .item-menu-footer-2 {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .f-cont-1 {
+        font-size: 0.5rem;
+        line-height: 0.75rem;
+        margin-bottom: 5.144%;
+    }
+    .f-cont-2 {
+        font-size: 1.375rem;
+        line-height: 1.563rem;
+        margin-bottom: 21.6%;
+    }
+    .f-cont-3 {
+        font-size: 0.5rem;
+        line-height: 0.563rem;
+        margin-bottom: 2.4%;
+    }
+    .f-cont-4 {
+        font-size: 0.625rem;
+        line-height: 0.938rem;
+        margin-bottom: 10.85%;
+    }
+    .link-menu-m {
+        color: #005BDE;
+    }
+    .offcanvas.show {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+    .logo {
+        max-width: 132.54px;
+        width: auto;
+        height: auto;
+    }
+    .container {
+        max-width: 100%;
+        width: auto;
+        padding-left: 4.20%;
+        padding-right: 4.20%;
+    }
+    header {
+        padding-top: 3.56%;
+    }
+    .menu {
+        font-size: 0.688rem;
+        line-height: 0.813rem;
+    }
+    .b-1 {
+        border: 0.80px solid #005BDE;
+        padding: 6px 11px;
+    }
+    .arrow {
+        width: 20px;
+        height: auto;
+    }
+    footer {
+        padding-top: 3.84%;
+        padding-bottom: 4.92%;
+    }
+    .f-cont-1 {
+        font-size: 0.688rem;
+        line-height: 1.063rem;
+        margin-bottom: 3.20%;
+    }
+    .f-cont-2 {
+        font-size: 2.625rem;
+        line-height: 3rem;
+        margin-bottom: 3.20%;
+    }
+    .item-menu-footer-2 {
+        font-size: 1.063rem;
+        line-height: 1.594rem;
+        margin-top: 3.25%;
+    }
+    .copy {
+        width: 100px;
+        height: auto;
+    }
+    .f-cont-3 {
+        font-size: 0.688rem;
+        line-height: 0.813rem;
+        margin-bottom: 1.55%;
+    }
+    .f-cont-4 {
+        font-size: 0.875rem;
+        line-height: 1.313rem;
+    }
+}
+
+@media (min-width: 1021px) and (max-width: 1919px) {
+    .logo {
+        max-width: 130px;
+        width: auto;
+        height: auto;
+    }
+    .container {
+        max-width: 100%;
+        width: auto;
+        padding-left: 6.61%;
+        padding-right: 6.61%;
+    }
+    .b-1 {
+        padding: 10px;
+    }
+    .arrow {
+        width: 27px;
+        height: auto;
+    }
+    .f-cont-1 {
+        margin-bottom: 2.0%;
+    }
+    .f-cont-2 {
+        font-size: 2.625rem;
+        line-height: 3rem;
+        margin-bottom: 3.20%;
+    }
+    .item-menu-footer-2 {
+        font-size: 1.063rem;
+        line-height: 1.594rem;
+        margin-top: 3.25%;
+    }
+    .f-cont-3 {
+        font-size: 0.8rem;
+        line-height: 1.438rem;
+        margin-bottom: 10px;
+    }
+    .f-cont-4 {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
