@@ -1,3 +1,11 @@
+body {
+    color: black;
+}
+
+.blue {
+    color: #005BDE;
+}
+
 .logo {
     max-width: 100%;
     width: auto;
@@ -109,6 +117,118 @@ footer a:hover {
     margin-bottom: 100px;
 }
 
+.footer-animation {
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 1.25rem;
+    line-height: 1.563rem;
+}
+
+.social-animation a {
+    color: #005BDE;
+}
+
+.animation {
+    margin-bottom: 120px;
+}
+
+.cont-1 {
+    font-style: normal;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin-bottom: 56px;
+}
+
+.cont-2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5.313rem;
+    line-height: 6.063rem;
+}
+
+.list-group-item {
+    border: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px;
+}
+
+.numbers {
+    font-style: normal;
+    font-weight: bold;
+    color: #005BDE;
+    font-size: 10rem;
+    line-height: 10.375rem;
+    text-align: center;
+    margin-top: 11.75rem;
+    margin-bottom: 3.438rem;
+}
+
+.numbers span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.item-do {
+    padding-right: 0px;
+    font-size: 52px;
+}
+
+.bt-blue-1 {
+    color: #005BDE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 67.3372px;
+    line-height: 81px;
+    border: 2.477px solid #005BDE;
+    box-sizing: border-box;
+    border-radius: 39.6101px;
+    padding: 0px 24px 12px 11px;
+}
+
+.tabs-con,
+.why-we {
+    margin-top: 9.563rem;
+}
+
+.w-w-1 {
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 7.5rem;
+    line-height: 8.563rem;
+    margin-bottom: 2.5rem;
+}
+
+.w-w-2 {
+    color: #005BDE;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.813rem;
+    line-height: 3.5rem;
+    padding-left: 6.5rem;
+}
+
+.w-w-3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.813rem;
+    line-height: 2.688rem;
+    margin-bottom: 5.625rem;
+}
+
 @media (max-width: 767px) {
     .logo {
         max-width: 32px;
@@ -201,6 +321,80 @@ footer a:hover {
     .offcanvas.show {
         width: 100%;
     }
+    .footer-animation {
+        font-size: 0.5rem;
+        line-height: 0.625rem;
+    }
+    .footer-animation .col-auto {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .footer-animation .col-auto .row .col-auto {
+        padding-right: calc(var(--bs-gutter-x) * .25);
+        padding-left: calc(var(--bs-gutter-x) * .25);
+    }
+    .animation {
+        margin-bottom: 9.1%;
+    }
+    .cont-1 {
+        font-size: 0.5rem;
+        line-height: 0.75rem;
+        margin-bottom: 5.144%;
+    }
+    .cont-2 {
+        font-size: 1.938rem;
+        line-height: 2.188rem;
+    }
+    .list-group-item {
+        font-size: 0.563rem;
+        line-height: 0.813rem;
+        margin-top: 1.875rem;
+    }
+    .enumerate {
+        width: 6px;
+        height: auto;
+    }
+    .numbers {
+        font-size: 3.563rem;
+        line-height: 4.25rem;
+        margin-top: 2.063rem;
+        margin-bottom: 1.688rem;
+    }
+    .numbers span {
+        font-size: 0.563rem;
+        line-height: 0.813rem;
+        margin-bottom: 1.688rem;
+    }
+    .item-do {
+        font-size: 1.125rem;
+    }
+    .bt-blue-1 {
+        font-size: 21px;
+        line-height: 25px;
+        border: 0.794312px solid #005BDE;
+        box-sizing: border-box;
+        border-radius: 12.702px;
+        padding: 0px 16px 6px 8px;
+    }
+    .tabs-con,
+    .why-we {
+        margin-top: 4.313rem;
+    }
+    .w-w-1 {
+        font-size: 1.938rem;
+        line-height: 2.188rem;
+        margin-bottom: 0.625rem;
+    }
+    .w-w-2 {
+        font-size: 0.875rem;
+        line-height: 1.063rem;
+        padding-left: 2.5rem;
+    }
+    .w-w-3 {
+        font-size: 0.563rem;
+        line-height: 0.813rem;
+        margin-bottom: 2.688rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1020px) {
@@ -262,9 +456,77 @@ footer a:hover {
         font-size: 0.875rem;
         line-height: 1.313rem;
     }
+    .footer-animation {
+        font-size: 0.688rem;
+        line-height: 0.813rem;
+    }
+    .animation {
+        margin-bottom: 7.19%;
+    }
+    .cont-1 {
+        font-size: 0.688rem;
+        line-height: 1.063rem;
+        margin-bottom: 3.20%;
+    }
+    .cont-2 {
+        font-size: 2.625rem;
+        line-height: 3rem;
+    }
+    .list-group-item {
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+        margin-top: 2.25rem;
+    }
+    .enumerate {
+        width: 8px;
+        height: auto;
+    }
+    .numbers {
+        font-size: 4.563rem;
+        line-height: 3.625rem;
+        margin-top: 3.563rem;
+        margin-bottom: 3.125rem;
+    }
+    .numbers span {
+        font-size: 0.688rem;
+        line-height: 1rem;
+    }
+    .item-do {
+        font-size: 1.438rem;
+    }
+    .bt-blue-1 {
+        font-size: 32px;
+        line-height: 37px;
+        border: 1.22958px solid #005BDE;
+        box-sizing: border-box;
+        border-radius: 19.6624px;
+        padding: 0px 16px 6px 8px;
+    }
+    .tabs-con,
+    .why-we {
+        margin-top: 5.063rem;
+    }
+    .w-w-1 {
+        font-size: 3.75rem;
+        line-height: 4.25rem;
+        margin-bottom: 1.375rem;
+    }
+    .w-w-2 {
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+        padding-left: 2.5rem;
+    }
+    .w-w-3 {
+        font-size: 0.875rem;
+        line-height: 1.313rem;
+        margin-bottom: 2.813rem;
+    }
 }
 
 @media (min-width: 1021px) and (max-width: 1919px) {
+    header {
+        padding-top: 4.06%;
+    }
     .logo {
         max-width: 130px;
         width: auto;
@@ -304,5 +566,67 @@ footer a:hover {
     .f-cont-4 {
         font-size: 1rem;
         line-height: 1.5rem;
+    }
+    .footer-animation {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .animation {
+        margin-bottom: 6.25%;
+    }
+    .cont-1 {
+        margin-bottom: 2.0%;
+    }
+    .cont-2 {
+        font-size: 2.625rem;
+        line-height: 3rem;
+    }
+    .list-group-item {
+        font-size: 0.85rem;
+        line-height: 1.125rem;
+    }
+    .enumerate {
+        width: 13px;
+        height: auto;
+    }
+    .numbers {
+        font-size: 4.563rem;
+        line-height: 5.625rem;
+        margin-top: 3.563rem;
+        margin-bottom: 3.125rem;
+    }
+    .numbers span {
+        font-size: 1rem;
+        line-height: 2.25px;
+    }
+    .item-do {
+        font-size: 1.438rem;
+    }
+    .bt-blue-1 {
+        font-size: 32px;
+        line-height: 37px;
+        border: 1.22958px solid #005BDE;
+        box-sizing: border-box;
+        border-radius: 19.6624px;
+        padding: 0px 16px 6px 8px;
+    }
+    .tabs-con,
+    .why-we {
+        margin-top: 5.063rem;
+    }
+    .w-w-1 {
+        font-size: 3.75rem;
+        line-height: 4.25rem;
+        margin-bottom: 1.375rem;
+    }
+    .w-w-2 {
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+        padding-left: 2.75rem;
+    }
+    .w-w-3 {
+        font-size: 0.95rem;
+        line-height: 1.313rem;
+        margin-bottom: 2.813rem;
     }
 }
