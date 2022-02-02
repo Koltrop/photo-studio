@@ -309,35 +309,23 @@ blue {
 
 .animation-cont {
     overflow-x: hidden;
-    height: 883px;
-    margin-bottom: 126px;
+    height: 830px;
     margin-top: 100px;
 }
 
 .txt-animation {
-    animation-duration: 8s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-play-state: running;
-    animation-name: slidein;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 200px;
-    line-height: 187px;
-    text-transform: uppercase;
-    color: #000000;
-    height: 182px;
-    max-width: none;
+    overflow-x: hidden;
+    background-size: 100% 100%;
     z-index: 1;
+    height: 182px;
+    width: 100%;
+    background-image: url(index-animation-img/txt.svg);
+    animation: slidein 25s infinite linear;
 }
 
 @keyframes slidein {
-    from {
-        margin-left: 0%;
-    }
     to {
-        margin-left: -55%;
+        background-position: -10000px;
     }
 }
 
@@ -346,10 +334,11 @@ blue {
     position: absolute;
     width: 595px;
     height: 407px;
-    background-image: url(../index-animation-img/1.png);
+    top: 528px;
+    background-image: url(index-animation-img/1.png);
     background-size: 100% 100%;
     z-index: 1000;
-    animation: mov 25s linear infinite;
+    animation: mov 7s linear infinite;
 }
 
 .item-animation-2 {
@@ -359,10 +348,10 @@ blue {
     top: 228px;
     width: 429px;
     height: 590px;
-    background-image: url(../index-animation-img/1.png);
+    background-image: url(index-animation-img/2.png);
     background-size: 100% 100%;
     z-index: 1000;
-    animation: mov 25s linear 7s infinite;
+    animation: mov 7s linear 1.75s infinite;
 }
 
 .item-animation-3 {
@@ -372,10 +361,10 @@ blue {
     width: 595px;
     height: 407px;
     top: 554px;
-    background-image: url(../index-animation-img/1.png);
+    background-image: url(index-animation-img/3.png);
     background-size: 100% 100%;
     z-index: 1000;
-    animation: mov 25s linear 12s infinite;
+    animation: mov 7s linear 3.2s infinite;
 }
 
 .item-animation-4 {
@@ -385,10 +374,10 @@ blue {
     width: 485px;
     height: 365px;
     top: 444px;
-    background-image: url(../index-animation-img/1.png);
+    background-image: url(index-animation-img/4.png);
     background-size: 100% 100%;
     z-index: 1000;
-    animation: mov 25s linear 19s infinite;
+    animation: mov 7s linear 4.9s infinite;
 }
 
 @keyframes mov {
@@ -604,15 +593,70 @@ blue {
         line-height: 1.063rem;
     }
     .txt-animation {
-        animation-duration: 3s;
-        font-size: 71px;
-        line-height: 66px;
-        height: 65px
+        overflow: hidden;
+        height: 65px;
+        width: 100%;
+        background-size: 100% 100%;
+        animation: slidein 50s infinite linear;
     }
     .animation-cont {
+        overflow: hidden;
         height: 566px;
         margin-bottom: 64px;
         margin-top: 73px;
+    }
+    .item-animation-1 {
+        overflow: hidden;
+        position: absolute;
+        width: 98px;
+        height: 87px;
+        top: 126px;
+        animation: mov 10s linear infinite;
+    }
+    .item-animation-2 {
+        overflow: hidden;
+        position: absolute;
+        width: 153px;
+        height: 210px;
+        top: 158px;
+        animation: mov 10s linear 1.75s infinite;
+    }
+    .item-animation-3 {
+        overflow: hidden;
+        position: absolute;
+        width: 275px;
+        height: 207px;
+        top: 416px;
+        animation: mov 10s linear 3.2s infinite;
+    }
+    .item-animation-4 {
+        overflow: hidden;
+        position: absolute;
+        width: 242.71px;
+        height: 165.96px;
+        top: 342.36px;
+        animation: mov 10s linear -2.5s infinite;
+    }
+    .item-animation-5 {
+        overflow: hidden;
+        position: absolute;
+        visibility: hidden;
+        width: 167px;
+        height: 116px;
+        top: 576px;
+        background-image: url(index-animation-img/5.png);
+        background-size: 100% 100%;
+        z-index: 1000;
+        animation: mov 10s linear 0.3s infinite;
+    }
+    @keyframes mov {
+        from {
+            margin-left: 100%;
+            visibility: visible;
+        }
+        to {
+            margin-left: -100%;
+        }
     }
 }
 
@@ -777,15 +821,68 @@ blue {
         line-height: 1.5rem;
     }
     .txt-animation {
-        animation-duration: 5s;
-        font-size: 99px;
-        line-height: 93px;
-        height: 90px
+        height: 90px;
+        width: 100%;
+        background-size: 100% 100%;
+        animation: slidein 30s infinite linear;
     }
     .animation-cont {
         height: 883px;
-        margin-bottom: 126px;
+        margin-bottom: 0px;
         margin-top: 103px;
+    }
+    .item-animation-1 {
+        overflow: hidden;
+        position: absolute;
+        width: 166px;
+        height: 147px;
+        top: 161px;
+        animation: mov 10s linear infinite;
+    }
+    .item-animation-2 {
+        overflow: hidden;
+        position: absolute;
+        width: 276px;
+        height: 378px;
+        top: 187px;
+        animation: mov 10s linear 1.75s infinite;
+    }
+    .item-animation-3 {
+        overflow: hidden;
+        position: absolute;
+        width: 436px;
+        height: 330px;
+        top: 623px;
+        animation: mov 10s linear 3.2s infinite;
+    }
+    .item-animation-4 {
+        overflow: hidden;
+        position: absolute;
+        width: 390.62px;
+        height: 266.94px;
+        top: 470.27px;
+        animation: mov 10s linear -2.5s infinite;
+    }
+    .item-animation-5 {
+        overflow: hidden;
+        position: absolute;
+        visibility: hidden;
+        width: 260px;
+        height: 180px;
+        top: 845px;
+        background-image: url(index-animation-img/5.png);
+        background-size: 100% 100%;
+        z-index: 1000;
+        animation: mov 10s linear 0.3s infinite;
+    }
+    @keyframes mov {
+        from {
+            margin-left: 100%;
+            visibility: visible;
+        }
+        to {
+            margin-left: -100%;
+        }
     }
 }
 
@@ -925,14 +1022,67 @@ blue {
         line-height: 1.5rem;
     }
     .txt-animation {
-        animation-duration: 5s;
-        font-size: 99px;
-        line-height: 93px;
-        height: 90px
+        height: 90px;
+        width: 100%;
+        background-size: 100% 100%;
+        animation: slidein 30s infinite linear;
     }
     .animation-cont {
-        height: 883px;
-        margin-bottom: 126px;
+        height: 795px;
+        margin-bottom: 0px;
         margin-top: 103px;
+    }
+    .item-animation-1 {
+        overflow: hidden;
+        position: absolute;
+        width: 166px;
+        height: 147px;
+        top: 161px;
+        animation: mov 10s linear infinite;
+    }
+    .item-animation-2 {
+        overflow: hidden;
+        position: absolute;
+        width: 276px;
+        height: 378px;
+        top: 187px;
+        animation: mov 10s linear 1.75s infinite;
+    }
+    .item-animation-3 {
+        overflow: hidden;
+        position: absolute;
+        width: 436px;
+        height: 330px;
+        top: 623px;
+        animation: mov 10s linear 3.2s infinite;
+    }
+    .item-animation-4 {
+        overflow: hidden;
+        position: absolute;
+        width: 390.62px;
+        height: 266.94px;
+        top: 470.27px;
+        animation: mov 10s linear -2.5s infinite;
+    }
+    .item-animation-5 {
+        overflow: hidden;
+        position: absolute;
+        visibility: hidden;
+        width: 260px;
+        height: 180px;
+        top: 845px;
+        background-image: url(index-animation-img/5.png);
+        background-size: 100% 100%;
+        z-index: 1000;
+        animation: mov 10s linear 0.3s infinite;
+    }
+    @keyframes mov {
+        from {
+            margin-left: 100%;
+            visibility: visible;
+        }
+        to {
+            margin-left: -100%;
+        }
     }
 }
