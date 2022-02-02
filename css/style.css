@@ -346,7 +346,7 @@ blue {
     position: absolute;
     width: 595px;
     height: 407px;
-    background-image: url(/index-animation-img/1.png);
+    background-image: url(/css/index-animation-img/1.png);
     background-size: 100% 100%;
     z-index: 1000;
     animation: mov 25s linear infinite;
@@ -359,7 +359,7 @@ blue {
     top: 228px;
     width: 429px;
     height: 590px;
-    background-image: url(/index-animation-img/2.png);
+    background-image: url(/css/index-animation-img/2.png);
     background-size: 100% 100%;
     z-index: 1000;
     animation: mov 25s linear 7s infinite;
