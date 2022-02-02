@@ -380,6 +380,18 @@ blue {
     animation: mov 7s linear 4.9s infinite;
 }
 
+.item-animation-5 {
+    overflow: hidden;
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    height: 116px;
+    top: 576px;
+    background-image: url(index-animation-img/5.png);
+    background-repeat: no-repeat;
+    z-index: 1000;
+}
+
 @keyframes mov {
     from {
         margin-left: 100%;
@@ -397,6 +409,7 @@ blue {
         height: auto;
     }
     .container {
+        overflow-x: hidden;
         max-width: 100%;
         width: auto;
         padding-left: 6.37%;
@@ -606,56 +619,89 @@ blue {
         margin-top: 73px;
     }
     .item-animation-1 {
+        box-sizing: border-box;
+        max-width: 100%;
         overflow: hidden;
         position: absolute;
-        width: 98px;
         height: 87px;
         top: 126px;
-        animation: mov 10s linear infinite;
+        animation: mov1 7s linear infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 200%;
     }
     .item-animation-2 {
         overflow: hidden;
         position: absolute;
-        width: 153px;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
         height: 210px;
         top: 158px;
-        animation: mov 10s linear 1.75s infinite;
+        animation: mov2 7s linear 1.12s infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 220%;
     }
     .item-animation-3 {
         overflow: hidden;
         position: absolute;
-        width: 275px;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
         height: 207px;
         top: 416px;
-        animation: mov 10s linear 3.2s infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 300%;
+        animation: mov3 7s linear 2.3s infinite;
     }
     .item-animation-4 {
         overflow: hidden;
         position: absolute;
-        width: 242.71px;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
         height: 165.96px;
         top: 342.36px;
-        animation: mov 10s linear -2.5s infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 500%;
+        animation: mov4 7s linear -2s infinite;
     }
     .item-animation-5 {
         overflow: hidden;
         position: absolute;
-        visibility: hidden;
-        width: 167px;
-        height: 116px;
-        top: 576px;
-        background-image: url(index-animation-img/5.png);
-        background-size: 100% 100%;
-        z-index: 1000;
-        animation: mov 10s linear 0.3s infinite;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
+        background-size: contain;
+        background-position: 200%;
+        animation: mov5 7s linear 1s infinite;
     }
-    @keyframes mov {
-        from {
-            margin-left: 100%;
-            visibility: visible;
-        }
+    @keyframes mov1 {
         to {
-            margin-left: -100%;
+            background-position: -300%;
+        }
+    }
+    @keyframes mov2 {
+        to {
+            background-position: -345%;
+        }
+    }
+    @keyframes mov3 {
+        to {
+            background-position: -495%;
+        }
+    }
+    @keyframes mov4 {
+        to {
+            background-position: -435%;
+        }
+    }
+    @keyframes mov5 {
+        to {
+            background-position: -435%;
         }
     }
 }
@@ -832,56 +878,96 @@ blue {
         margin-top: 103px;
     }
     .item-animation-1 {
+        box-sizing: border-box;
+        max-width: 100%;
+        width: 100%;
         overflow: hidden;
         position: absolute;
-        width: 166px;
         height: 147px;
         top: 161px;
-        animation: mov 10s linear infinite;
+        animation: mov1 7s linear infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 300%;
     }
     .item-animation-2 {
+        width: 100%;
         overflow: hidden;
         position: absolute;
-        width: 276px;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
         height: 378px;
         top: 187px;
-        animation: mov 10s linear 1.75s infinite;
+        animation: mov2 7s linear 1.12s infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 320%;
     }
     .item-animation-3 {
+        width: 100%;
         overflow: hidden;
         position: absolute;
-        width: 436px;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
         height: 330px;
         top: 623px;
-        animation: mov 10s linear 3.2s infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 400%;
+        animation: mov3 7s linear 2.3s infinite;
     }
     .item-animation-4 {
+        width: 100%;
         overflow: hidden;
         position: absolute;
-        width: 390.62px;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
         height: 266.94px;
         top: 470.27px;
-        animation: mov 10s linear -2.5s infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 600%;
+        animation: mov4 7s linear -2s infinite;
     }
     .item-animation-5 {
+        width: 100%;
         overflow: hidden;
         position: absolute;
-        visibility: hidden;
-        width: 260px;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
         height: 180px;
         top: 845px;
-        background-image: url(index-animation-img/5.png);
-        background-size: 100% 100%;
-        z-index: 1000;
-        animation: mov 10s linear 0.3s infinite;
+        background-size: contain;
+        background-position: 300%;
+        animation: mov5 7s linear 1s infinite;
     }
-    @keyframes mov {
-        from {
-            margin-left: 100%;
-            visibility: visible;
-        }
+    @keyframes mov1 {
         to {
-            margin-left: -100%;
+            background-position: -300%;
+        }
+    }
+    @keyframes mov2 {
+        to {
+            background-position: -345%;
+        }
+    }
+    @keyframes mov3 {
+        to {
+            background-position: -495%;
+        }
+    }
+    @keyframes mov4 {
+        to {
+            background-position: -435%;
+        }
+    }
+    @keyframes mov5 {
+        to {
+            background-position: -435%;
         }
     }
 }
@@ -1033,56 +1119,96 @@ blue {
         margin-top: 103px;
     }
     .item-animation-1 {
+        box-sizing: border-box;
+        max-width: 100%;
+        width: 100%;
         overflow: hidden;
         position: absolute;
-        width: 166px;
         height: 147px;
         top: 161px;
-        animation: mov 10s linear infinite;
+        animation: mov1 7s linear infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 200%;
     }
     .item-animation-2 {
+        width: 100%;
         overflow: hidden;
         position: absolute;
-        width: 276px;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
         height: 378px;
-        top: 187px;
-        animation: mov 10s linear 1.75s infinite;
+        top: 287px;
+        animation: mov2 7s linear 1.12s infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 220%;
     }
     .item-animation-3 {
+        width: 100%;
         overflow: hidden;
         position: absolute;
-        width: 436px;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
         height: 330px;
         top: 623px;
-        animation: mov 10s linear 3.2s infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 300%;
+        animation: mov3 7s linear 2.3s infinite;
     }
     .item-animation-4 {
+        width: 100%;
         overflow: hidden;
         position: absolute;
-        width: 390.62px;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
         height: 266.94px;
         top: 470.27px;
-        animation: mov 10s linear -2.5s infinite;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: 500%;
+        animation: mov4 7s linear -2s infinite;
     }
     .item-animation-5 {
+        width: 100%;
         overflow: hidden;
         position: absolute;
-        visibility: hidden;
-        width: 260px;
+        visibility: visible;
+        box-sizing: border-box;
+        max-width: 100%;
         height: 180px;
         top: 845px;
-        background-image: url(index-animation-img/5.png);
-        background-size: 100% 100%;
-        z-index: 1000;
-        animation: mov 10s linear 0.3s infinite;
+        background-size: contain;
+        background-position: 400%;
+        animation: mov5 7s linear 1s infinite;
     }
-    @keyframes mov {
-        from {
-            margin-left: 100%;
-            visibility: visible;
-        }
+    @keyframes mov1 {
         to {
-            margin-left: -100%;
+            background-position: -300%;
+        }
+    }
+    @keyframes mov2 {
+        to {
+            background-position: -345%;
+        }
+    }
+    @keyframes mov3 {
+        to {
+            background-position: -495%;
+        }
+    }
+    @keyframes mov4 {
+        to {
+            background-position: -435%;
+        }
+    }
+    @keyframes mov5 {
+        to {
+            background-position: -435%;
         }
     }
 }
