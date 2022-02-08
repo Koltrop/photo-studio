@@ -1,7 +1,7 @@
-@font-face {
+/*@font-face {
     font-family: 'AvantGardeGothicCTT';
     src: url(font/AvantGardeGothicCTT.woff2) format('woff2'), url(font/AvantGardeGothicCTT.woff) format('woff');
-}
+}*/
 
 body {
     color: black;
