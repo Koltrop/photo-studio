@@ -9,6 +9,12 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css//style.css" rel="stylesheet">
 
+    <script type="text/javascript" src="assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/lib/gsap3/gsap.min.js"></script>
+    <script type="text/javascript" src="scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script type="text/javascript" src="scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+    <script type="text/javascript" src="scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+
     <title>сТанция</title>
 </head>
 
@@ -123,7 +129,8 @@
         </div>
     </header>
 
-    <div class="container">
+    <div id="trigger1"></div>
+    <div class="container" id="reveal1">
         <div class="row">
             <div class="col cont-2 contac-1">
                 мы открыты для новых проектов и сотрудничества, не стесняйтесь обращаться к нам
@@ -131,7 +138,8 @@
         </div>
     </div>
 
-    <div class="container">
+    <div id="trigger2"></div>
+    <div class="container" id="reveal2">
         <div class="row justify-content-between">
             <div class="justify-content-between col-12 col-sm-12 col-md-5 col-lg-5">
                 <div class="col-auto cont-1 contac-4">
@@ -187,11 +195,13 @@
         </div>
     </div>
 
-    <div class="container" style="padding:0%;">
+    <div id="trigger3"></div>
+    <div class="container" id="reveal3" style="padding:0%;">
         <img src="img/map-contac.png" class="img-fluid" alt="">
     </div>
 
-    <footer>
+    <div id="trigger4"></div>
+    <footer id="reveal4">
         <div class="container ">
             <div class="row f-cont-2">
                 <div class="col-auto">
@@ -291,6 +301,7 @@
     </footer>
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/animation.js"></script>
 </body>
 
 </html>

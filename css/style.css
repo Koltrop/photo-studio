@@ -11,7 +11,8 @@ body {
 
 #reveal1,
 #reveal3,
-#reveal2 {
+#reveal2,
+#reveal4 {
     opacity: 0;
     -webkit-transform: scale(0.9);
     -moz-transform: scale(0.9);
@@ -27,7 +28,8 @@ body {
 
 #reveal1.visible,
 #reveal3.visible,
-#reveal2.visible {
+#reveal2.visible,
+#reveal4.visible {
     opacity: 1;
     -webkit-transform: none;
     -moz-transform: none;
