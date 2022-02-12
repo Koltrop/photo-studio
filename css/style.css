@@ -316,6 +316,7 @@ footer a:hover {
     line-height: 8.75rem;
     border-bottom-width: 0.25rem;
     border-bottom-style: solid;
+    color: #ffffff;
 }
 
 .size-item {
@@ -491,14 +492,88 @@ blue {
     margin-bottom: 10rem;
 }
 
-.tab-pane > .row {
+.tab-pane>.row {
     display: block;
-  overflow-x: auto;
-  white-space: nowrap;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
-.tab-pane > .row > .col-auto {
+.tab-pane>.row::-webkit-scrollbar {
+    display: none;
+    width: 10px;
+    height: 10px;
+    background-color: aliceblue;
+}
+
+.tab-pane>.row:hover::-webkit-scrollbar {
+    display: initial;
+}
+
+.tab-pane>.row::-webkit-scrollbar-thumb {
+    background-color: dimgrey;
+}
+
+.tab-pane>.row>.col-auto {
     display: inline-block;
+}
+
+.head-room {
+    background-image: url(img/sunrise1.png);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 81.7rem;
+    margin-bottom: 6.5rem;
+}
+
+.name-room {
+    margin-top: 28.063rem;
+    font-style: normal;
+    font-weight: bold;
+    color: #ffffff;
+    border-bottom-style: solid;
+    font-size: 8.75rem;
+    line-height: 12.25rem;
+    border-bottom-width: 0.438rem;
+}
+
+.txt-sal {
+    font-style: normal;
+    font-weight: normal;
+    color: #000000;
+    font-size: 1.813rem;
+    line-height: 2.688rem;
+}
+
+.blue-bt-s {
+    margin-top: 2.5rem;
+    color: #005BDE;
+    border: 0.08rem solid #005BDE;
+    box-sizing: border-box;
+    border-radius: 2.762rem;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+}
+
+.img-sal {
+    margin-top: 8.125rem;
+}
+
+.sal-cont-1 {
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 2.05rem;
+    line-height: 2.875rem;
+    margin-top: 9rem;
+    margin-bottom: 6.875rem;
+}
+
+.sal-cont-2 {
+    font-size: 4.29rem;
+    line-height: 6rem;
+    color: #000000;
 }
 
 @media (max-width: 767px) {
@@ -821,6 +896,39 @@ blue {
     .img-contac {
         margin-bottom: 1.75rem;
     }
+    .head-room {
+        height: 50.75rem;
+        margin-bottom: 2.063rem;
+    }
+    .name-room {
+        margin-top: 19.063rem;
+        font-size: 2.938rem;
+        line-height: 4.125rem;
+        border-bottom-width: 0.15rem;
+    }
+    .txt-sal {
+        font-size: 0.563rem;
+        line-height: 0.813rem;
+    }
+    .blue-bt-s {
+        margin-top: 0.813rem;
+        border: 0.08rem solid #005BDE;
+        border-radius: 2.762rem;
+        padding: 0.25rem 0.5rem;
+    }
+    .img-sal {
+        margin-top: 2.938rem;
+    }
+    .sal-cont-1 {
+        font-size: 0.563rem;
+        line-height: 0.813rem;
+        margin-top: 2.313rem;
+        margin-bottom: 2.313rem;
+    }
+    .sal-cont-2 {
+        font-size: 1.125rem;
+        line-height: 1.563rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1020px) {
@@ -1105,6 +1213,39 @@ blue {
     .img-contac {
         margin-bottom: 4.25rem;
     }
+    .head-room {
+        height: 74.625rem;
+        margin-bottom: 2.938rem;
+    }
+    .name-room {
+        margin-top: 28.125rem;
+        font-size: 4.813rem;
+        line-height: 6.75rem;
+        border-bottom-width: 0.25rem;
+    }
+    .txt-sal {
+        font-size: 0.875rem;
+        line-height: 1.313rem;
+    }
+    .blue-bt-s {
+        margin-top: 1.875rem;
+        border: 0.08rem solid #005BDE;
+        border-radius: 2.762rem;
+        padding: 0.3rem 0.8rem;
+    }
+    .img-sal {
+        margin-top: 3.438rem;
+    }
+    .sal-cont-1 {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        margin-top: 3.188rem;
+        margin-bottom: 3.188rem;
+    }
+    .sal-cont-2 {
+        font-size: 1.813rem;
+        line-height: 2.563rem;
+    }
 }
 
 @media (min-width: 1021px) and (max-width: 1919px) {
@@ -1159,6 +1300,8 @@ blue {
         margin-bottom: 6.25%;
     }
     .cont-1 {
+        font-size: 0.938rem;
+        line-height: 0.813rem;
         margin-bottom: 2.0%;
     }
     .cont-2 {
@@ -1363,6 +1506,32 @@ blue {
     .contac-3,
     .img-contac {
         margin-bottom: 4.25rem;
+    }
+    .head-room {
+        height: 74.625rem;
+        margin-bottom: 2.938rem;
+    }
+    .name-room {
+        font-size: 4.813rem;
+        line-height: 6.75rem;
+        border-bottom-width: 0.25rem;
+    }
+    .txt-sal {
+        font-size: 1.25rem;
+        line-height: 1.813rem;
+    }
+    .img-sal {
+        margin-top: 3.438rem;
+    }
+    .sal-cont-1 {
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        margin-top: 3.188rem;
+        margin-bottom: 3.188rem;
+    }
+    .sal-cont-2 {
+        font-size: 1.813rem;
+        line-height: 2.563rem;
     }
 }
 
