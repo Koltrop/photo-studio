@@ -578,6 +578,11 @@ blue {
     color: #000000;
 }
 
+.union {
+    width: 30px;
+    height: auto;
+}
+
 @media (max-width: 767px) {
     .logo {
         max-width: 32px;
@@ -931,6 +936,10 @@ blue {
         font-size: 1.125rem;
         line-height: 1.563rem;
     }
+    .union {
+        width: 8px;
+        height: auto;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1020px) {
@@ -1248,6 +1257,10 @@ blue {
         font-size: 1.813rem;
         line-height: 2.563rem;
     }
+    .union {
+        width: 13px;
+        height: auto;
+    }
 }
 
 @media (min-width: 1021px) and (max-width: 1919px) {
@@ -1534,6 +1547,10 @@ blue {
     .sal-cont-2 {
         font-size: 1.813rem;
         line-height: 2.563rem;
+    }
+    .union {
+        width: 13px;
+        height: auto;
     }
 }
 
