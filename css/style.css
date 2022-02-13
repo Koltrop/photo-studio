@@ -583,6 +583,88 @@ blue {
     height: auto;
 }
 
+.space-1 {
+    margin-top: 8.188rem;
+}
+
+.links-space {
+    font-style: normal;
+    font-weight: normal;
+    text-transform: lowercase;
+    color: #000000;
+    font-size: 1.813rem;
+    line-height: 2.688rem;
+}
+
+.card-space-1 {
+    width: 42.438rem;
+    height: auto;
+}
+
+.foot-card-space {
+    margin-top: 0rem;
+}
+
+.space-tabs>.row {
+    display: flex;
+    overflow-x: auto;
+}
+
+.card-space-2 {
+    margin-top: 3.813rem;
+    width: 85.813rem;
+    height: auto;
+}
+
+.card-space-3 {
+    margin-top: -6.813rem;
+    width: 59.375rem;
+    height: auto;
+}
+
+.card-space-4 {
+    margin-top: -13.813rem;
+}
+
+.card-space-4>.space-item {
+    width: 44.375rem;
+    height: auto;
+}
+
+.card-space-5 {
+    margin-top: -3.75rem;
+    width: 59.375rem;
+    height: auto;
+}
+
+.card-space-6 {
+    margin-top: -13.813rem;
+}
+
+.card-space-6>.space-item {
+    width: 44.375rem;
+    height: auto;
+}
+
+.card-space-7 {
+    margin-top: -7.813rem;
+}
+
+.card-space-7>.space-item {
+    width: 52.5rem;
+    height: auto;
+}
+
+.card-space-8 {
+    margin-top: -7.813rem;
+    margin-bottom: 10.313rem;
+}
+
+.card-space-8>.space-item {
+    width: 51.25rem;
+    height: auto;
+}
+
 @media (max-width: 767px) {
     .logo {
         max-width: 32px;
@@ -940,6 +1022,39 @@ blue {
         width: 8px;
         height: auto;
     }
+    .space-1 {
+        margin-top: 0.5rem;
+    }
+    .links-space {
+        font-size: 0.563rem;
+        line-height: 0.813rem;
+    }
+    .space-item {
+        margin-bottom: 51px;
+    }
+    .card-space-2 {
+        margin-top: 0%;
+    }
+    .card-space-3 {
+        margin-top: 0%;
+        width: auto;
+    }
+    .card-space-4 {
+        margin-top: 0%;
+    }
+    .card-space-5 {
+        margin-top: 0%;
+    }
+    .card-space-6 {
+        margin-top: 0%;
+    }
+    .card-space-7 {
+        margin-top: 0%;
+    }
+    .card-space-8 {
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1020px) {
@@ -1261,6 +1376,61 @@ blue {
         width: 13px;
         height: auto;
     }
+    .space-1 {
+        margin-top: 4.25rem;
+    }
+    .links-space {
+        font-size: 0.875rem;
+        line-height: 1.313rem;
+    }
+    .card-space-1 {
+        width: 19.063rem;
+        height: auto;
+    }
+    .card-space-2 {
+        margin-top: 1.5rem;
+        width: 38.625rem;
+        height: auto;
+    }
+    .card-space-3 {
+        margin-top: -4.813rem;
+        width: 26.688rem;
+        height: auto;
+    }
+    .card-space-4 {
+        margin-top: -7.813rem;
+    }
+    .card-space-4>.space-item {
+        width: 20rem;
+        height: auto;
+    }
+    .card-space-5 {
+        margin-top: 1.563rem;
+        width: 38.75rem;
+        height: auto;
+    }
+    .card-space-6 {
+        margin-top: -5.813rem;
+    }
+    .card-space-6>.space-item {
+        width: 26.75rem;
+        height: auto;
+    }
+    .card-space-7 {
+        margin-top: -3.813rem;
+    }
+    .card-space-7>.space-item {
+        width: 18.563rem;
+        height: auto;
+    }
+    .card-space-8 {
+        margin-top: -3.813rem;
+        margin-bottom: 5.25rem
+    }
+    .card-space-8>.space-item {
+        width: 22.75rem;
+        height: auto;
+    }
 }
 
 @media (min-width: 1021px) and (max-width: 1919px) {
@@ -1552,6 +1722,61 @@ blue {
         width: 13px;
         height: auto;
     }
+    .space-1 {
+        margin-top: 4.25rem;
+    }
+    .links-space {
+        font-size: 1.513rem;
+        line-height: 1.988rem;
+    }
+    .card-space-1 {
+        width: 36.438rem;
+        height: auto;
+    }
+    .card-space-2 {
+        margin-top: 3.813rem;
+        width: 48.813rem;
+        height: auto;
+    }
+    .card-space-3 {
+        margin-top: -5.813rem;
+        width: 35.375rem;
+        height: auto;
+    }
+    .card-space-4 {
+        margin-top: -7.813rem;
+    }
+    .card-space-4>.space-item {
+        width: 20rem;
+        height: auto;
+    }
+    .card-space-5 {
+        margin-top: 3.75rem;
+        width: 50.25rem;
+        height: auto;
+    }
+    .card-space-6 {
+        margin-top: -5.813rem;
+    }
+    .card-space-6>.space-item {
+        width: 31.75rem;
+        height: auto;
+    }
+    .card-space-7 {
+        margin-top: -7.813rem;
+    }
+    .card-space-7>.space-item {
+        width: 25.5rem;
+        height: auto;
+    }
+    .card-space-8 {
+        margin-top: -2.813rem;
+        margin-bottom: 4rem;
+    }
+    .card-space-8>.space-item {
+        width: 30.5rem;
+        height: auto;
+    }
 }
 
 @media (min-width: 1439px) and (max-width: 1919px) {
@@ -1571,5 +1796,46 @@ blue {
     }
     .contac-1 {
         margin-bottom: 7rem;
+    }
+    .card-space-2 {
+        margin-top: 3.813rem;
+        width: 70.813rem;
+        height: auto;
+    }
+    .card-space-3 {
+        margin-top: -6.813rem;
+        width: 46.375rem;
+        height: auto;
+    }
+    .card-space-4>.space-item {
+        width: 32.375rem;
+        height: auto;
+    }
+    .card-space-5 {
+        margin-top: 3.75rem;
+        width: 67.25rem;
+        height: auto;
+    }
+    .card-space-6 {
+        margin-top: -10.813rem;
+    }
+    .card-space-6>.space-item {
+        width: 40.375rem;
+        height: auto;
+    }
+    .card-space-7 {
+        margin-top: -7.813rem;
+    }
+    .card-space-7>.space-item {
+        width: 38.5rem;
+        height: auto;
+    }
+    .card-space-8 {
+        margin-top: -2.813rem;
+        margin-bottom: 6rem;
+    }
+    .card-space-8>.space-item {
+        width: 40.5rem;
+        height: auto;
     }
 }
