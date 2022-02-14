@@ -1,8 +1,19 @@
-/*@font-face {
+@font-face {
     font-family: 'AvantGardeGothicCTT';
-    src: url(font/AvantGardeGothicCTT.woff2) format('woff2'), url(font/AvantGardeGothicCTT.woff) format('woff');
-}*/
+    src: url('font/AvantGardeGothicC-Demi.eot');
+    src: url('font/AvantGardeGothicC-Demi.eot?#iefix') format('embedded-opentype'),
+        url('font/AvantGardeGothicC-Demi.woff2') format('woff2'),
+        url('font/AvantGardeGothicC-Demi.woff') format('woff'),
+        url('font/AvantGardeGothicC-Demi.ttf') format('truetype'),
+        url('font/AvantGardeGothicC-Demi.svg#AvantGardeGothicC-Demi') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
+*{
+    -webkit-font-smoothing: antialiased;
+}
 body {
     color: black;
     overflow-x: hidden!important;
