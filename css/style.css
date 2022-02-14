@@ -7,6 +7,14 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'AvantGardeGothicC';
+    src: url('font/AvantGardeGothicC.woff2') format('woff2'), url('font/AvantGardeGothicC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
     -webkit-font-smoothing: antialiased;
 }
@@ -14,7 +22,7 @@
 body {
     color: black;
     overflow-x: hidden!important;
-    font-family: "AvantGardeGothicCTT" !important;
+    font-family: "AvantGardeGothicC";
 }
 
 #reveal1,
@@ -94,6 +102,7 @@ body {
 
 header {
     padding-top: 78px;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .menu {
@@ -102,6 +111,7 @@ header {
     font-size: 1.25rem;
     line-height: 1.563rem;
     text-transform: uppercase;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .menu-item-active {
@@ -131,6 +141,7 @@ footer {
     color: white;
     font-style: normal;
     font-weight: bold;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .f-cont-1 {
@@ -184,6 +195,7 @@ footer a:hover {
     font-weight: normal;
     font-size: 1.813rem;
     line-height: 2.688rem;
+    font-family: "AvantGardeGothicC";
 }
 
 .f-2 {
@@ -197,6 +209,7 @@ footer a:hover {
     color: #000000;
     font-size: 1.25rem;
     line-height: 1.563rem;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .social-animation a {
@@ -215,6 +228,7 @@ footer a:hover {
     font-size: 1.25rem;
     line-height: 1.875rem;
     margin-bottom: 56px;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .cont-2 {
@@ -222,6 +236,7 @@ footer a:hover {
     font-weight: bold;
     font-size: 5.313rem;
     line-height: 6.063rem;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .list-group-item {
@@ -231,6 +246,7 @@ footer a:hover {
     font-size: 24px;
     line-height: 36px;
     padding: 0px;
+    font-family: "AvantGardeGothicC";
 }
 
 .numbers {
@@ -242,6 +258,7 @@ footer a:hover {
     text-align: center;
     margin-top: 11.75rem;
     margin-bottom: 3.438rem;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .numbers span {
@@ -251,6 +268,7 @@ footer a:hover {
     line-height: 36px;
     text-align: center;
     color: #000000;
+    font-family: "AvantGardeGothicC";
 }
 
 .item-do {
@@ -268,6 +286,7 @@ footer a:hover {
     box-sizing: border-box;
     border-radius: 47.6101px;
     padding: 0px 15px 6px 15px;
+    font-family: "AvantGardeGothicC";
 }
 
 .tabs-con,
@@ -283,6 +302,7 @@ footer a:hover {
     font-size: 7.5rem;
     line-height: 8.563rem;
     margin-bottom: 2.5rem;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .w-w-2 {
@@ -292,6 +312,7 @@ footer a:hover {
     font-size: 2.813rem;
     line-height: 3.5rem;
     padding-left: 6.5rem;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .w-w-3 {
@@ -300,6 +321,7 @@ footer a:hover {
     font-size: 1.813rem;
     line-height: 2.688rem;
     margin-bottom: 5.625rem;
+    font-family: "AvantGardeGothicC";
 }
 
 .nav-pills .nav-link {
@@ -313,10 +335,12 @@ footer a:hover {
     border-radius: 34.5px;
     margin-right: 1.25rem;
     margin-bottom: 5.563rem;
+    font-family: "AvantGardeGothicC";
 }
 
 .nav-link.active {
     font-weight: bold;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .name-item {
@@ -327,6 +351,7 @@ footer a:hover {
     border-bottom-width: 0.25rem;
     border-bottom-style: solid;
     color: #ffffff;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .size-item {
@@ -337,6 +362,7 @@ footer a:hover {
     line-height: 3.5rem;
     padding-top: 5.188rem;
     padding-right: 4.813rem;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .card {
@@ -364,6 +390,7 @@ footer a:hover {
     border-radius: 34.5px;
     font-size: 20px;
     line-height: 24px;
+    font-family: "AvantGardeGothicC";
 }
 
 .foot-card-inf {
@@ -371,6 +398,7 @@ footer a:hover {
     font-weight: normal;
     font-size: 1.5rem;
     line-height: 2.25rem;
+    font-family: "AvantGardeGothicC";
 }
 
 blue {
@@ -379,6 +407,7 @@ blue {
     color: #005BDE;
     font-size: 2.5rem;
     line-height: 3rem;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .animation-cont {
@@ -488,6 +517,7 @@ blue {
     font-size: 3.125rem;
     line-height: 4.375rem;
     margin-bottom: 2.75rem;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .contac-3 {
@@ -546,6 +576,7 @@ blue {
     font-size: 8.75rem;
     line-height: 12.25rem;
     border-bottom-width: 0.438rem;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .txt-sal {
@@ -554,6 +585,7 @@ blue {
     color: #000000;
     font-size: 1.813rem;
     line-height: 2.688rem;
+    font-family: "AvantGardeGothicC";
 }
 
 .blue-bt-s {
@@ -579,6 +611,7 @@ blue {
     line-height: 2.875rem;
     margin-top: 9rem;
     margin-bottom: 6.875rem;
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .sal-cont-2 {
@@ -610,6 +643,7 @@ blue {
     font-size: 1.813rem;
     line-height: 2.688rem;
     padding-bottom: 93px;
+    font-family: "AvantGardeGothicC";
 }
 
 .card-space-1 {
