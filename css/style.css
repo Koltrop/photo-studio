@@ -352,6 +352,7 @@ footer a:hover {
     border-bottom-style: solid;
     color: #ffffff;
     font-family: 'AvantGardeGothicCTT';
+    height: 136px;
 }
 
 .size-item {
@@ -361,7 +362,7 @@ footer a:hover {
     font-size: 2.5rem;
     line-height: 3.5rem;
     padding-top: 5.188rem;
-    padding-right: 4.813rem;
+    padding-right: 6rem;
     font-family: 'AvantGardeGothicCTT';
 }
 
@@ -577,6 +578,7 @@ blue {
     line-height: 12.25rem;
     border-bottom-width: 0.438rem;
     font-family: 'AvantGardeGothicCTT';
+    height: 190px;
 }
 
 .txt-sal {
@@ -652,7 +654,7 @@ blue {
 }
 
 .foot-card-space {
-    margin-top: 0rem;
+    margin-top: 1.5rem;
 }
 
 .space-tabs>.row {
@@ -743,6 +745,17 @@ blue {
 .copy {
     height: 23px;
     width: auto;
+}
+
+.item-sal {
+    font-size: 3.5rem;
+    padding-right: 9rem;
+    padding-top: 7.188rem;
+}
+
+.img-1 {
+    width: 552px;
+    height: auto;
 }
 
 @media (max-width: 767px) {
@@ -922,12 +935,13 @@ blue {
     .name-item {
         font-size: 2.188rem;
         line-height: 3.063rem;
+        height: 53px;
     }
     .size-item {
         font-size: 0.875rem;
         line-height: 1.25rem;
         padding-top: 2.188rem;
-        padding-right: 1.813rem;
+        padding-right: 2.5rem;
     }
     .card-index {
         width: 285px;
@@ -1075,6 +1089,7 @@ blue {
         font-size: 2.938rem;
         line-height: 4.125rem;
         border-bottom-width: 0.15rem;
+        height: 66px;
     }
     .txt-sal {
         font-size: 0.563rem;
@@ -1149,6 +1164,14 @@ blue {
     .copy {
         height: 10px;
         width: auto;
+    }
+    .foot-card-space {
+        margin-top: 0.5rem;
+    }
+    .item-sal {
+        font-size: 1.25rem;
+        padding-right: 4rem;
+        padding-top: 2.188rem;
     }
 }
 
@@ -1286,12 +1309,13 @@ blue {
     .name-item {
         font-size: 3.063rem;
         line-height: 4.313rem;
+        height: 73px;
     }
     .size-item {
         font-size: 1.25rem;
         line-height: 1.75rem;
         padding-top: 2.188rem;
-        padding-right: 2.813rem;
+        padding-right: 3.5rem;
     }
     .card-index {
         width: 473.56px;
@@ -1444,6 +1468,7 @@ blue {
         font-size: 4.813rem;
         line-height: 6.75rem;
         border-bottom-width: 0.25rem;
+        height: 105px;
     }
     .txt-sal {
         font-size: 0.875rem;
@@ -1544,6 +1569,17 @@ blue {
     .copy {
         height: 14px;
         width: auto;
+    }
+    .foot-card-space {
+        margin-top: 1rem;
+    }
+    .item-sal {
+        font-size: 2rem;
+        padding-top: 4.188rem;
+        padding-right: 5.5rem;
+    }
+    .img-1 {
+        width: 257.39px;
     }
 }
 
@@ -1658,12 +1694,13 @@ blue {
     .name-item {
         font-size: 3.063rem;
         line-height: 4.313rem;
+        height: 70px;
     }
     .size-item {
         font-size: 1.25rem;
         line-height: 1.75rem;
         padding-top: 2.188rem;
-        padding-right: 2.813rem;
+        padding-right: 3.5rem;
     }
     .card-index {
         width: 473.56px;
@@ -1814,6 +1851,7 @@ blue {
         font-size: 4.813rem;
         line-height: 6.75rem;
         border-bottom-width: 0.25rem;
+        height: 107px;
     }
     .txt-sal {
         font-size: 1.25rem;
@@ -1895,6 +1933,14 @@ blue {
         padding-left: 17px;
         padding-right: 17px;
     }
+    .item-sal {
+        font-size: 2rem;
+        padding-top: 4.188rem;
+        padding-right: 5.5rem;
+    }
+    .img-1 {
+        width: 324.39px;
+    }
 }
 
 @media (min-width: 1439px) and (max-width: 1919px) {
@@ -1955,5 +2001,8 @@ blue {
     .card-space-8>.space-item {
         width: 40.5rem;
         height: auto;
+    }
+    .img-1 {
+        width: 479.39px;
     }
 }
