@@ -130,7 +130,7 @@ header {
     border: 1.5px solid #005BDE;
     box-sizing: border-box;
     border-radius: 34.5px;
-    padding: 8px 10px;
+    padding: 9px 18px;
     color: #ffffff;
 }
 
@@ -170,6 +170,10 @@ footer a {
 
 footer a:hover {
     color: rgba(255, 255, 255, 0.4);
+}
+
+header .txt-14:hover {
+    color: #005BDE;
 }
 
 .item-menu-footer-2 {
@@ -227,7 +231,7 @@ footer a:hover {
     text-transform: uppercase;
     font-size: 1.25rem;
     line-height: 1.875rem;
-    margin-bottom: 56px;
+    margin-bottom: 2.438rem;
     font-family: 'AvantGardeGothicCTT';
 }
 
@@ -272,7 +276,6 @@ footer a:hover {
 }
 
 .item-do {
-    padding-right: 0px;
     font-size: 52px;
 }
 
@@ -286,7 +289,7 @@ footer a:hover {
     box-sizing: border-box;
     border-radius: 47.6101px;
     padding: 0px 15px 6px 15px;
-    font-family: "AvantGardeGothicC";
+    font-family: 'AvantGardeGothicCTT';
 }
 
 .tabs-con,
@@ -371,7 +374,7 @@ footer a:hover {
 }
 
 .card-index {
-    width: 954px;
+    width: 1050px;
     height: auto;
     padding-right: 70px;
 }
@@ -387,7 +390,7 @@ footer a:hover {
     text-transform: uppercase;
     color: #005BDE;
     border: 1px solid #005BDE;
-    padding: 5px;
+    padding: .5rem 1rem;
     border-radius: 34.5px;
     font-size: 20px;
     line-height: 24px;
@@ -591,7 +594,7 @@ blue {
 }
 
 .blue-bt-s {
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
     color: #005BDE;
     border: 0.08rem solid #005BDE;
     box-sizing: border-box;
@@ -629,7 +632,7 @@ blue {
 }
 
 .txt-union {
-    padding-left: 1.25%;
+    padding-left: 0.80%;
     padding-right: 1.25%;
 }
 
@@ -684,8 +687,8 @@ blue {
 }
 
 .card-space-5 {
-    margin-top: -3.75rem;
-    width: 59.375rem;
+    margin-top: 4.25rem;
+    width: 86.25rem;
     height: auto;
 }
 
@@ -694,7 +697,7 @@ blue {
 }
 
 .card-space-6>.space-item {
-    width: 44.375rem;
+    width: 50.375rem;
     height: auto;
 }
 
@@ -726,8 +729,12 @@ blue {
     left: 105%!important;
 }
 
+.txt-14-1 {
+    left: 103%!important;
+}
+
 .nav-pills .nav-link.active {
-    border: none;
+    border-color: #005BDE;
 }
 
 .tabs-con {
@@ -758,6 +765,49 @@ blue {
     height: auto;
 }
 
+.badge-1 {
+    font-size: .75em;
+}
+
+.txt-none {
+    font-size: .05em;
+    line-height: .55rem;
+    color: #ffffff;
+}
+
+.txt-bt {
+    padding-right: 0.625rem;
+    padding-left: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+.card-center {
+    height: 11.188rem;
+}
+
+.sup-1 {
+    padding-left: .2rem;
+}
+
+.num-1,
+.num-2,
+.num-4 {
+    padding-top: 3.5rem;
+}
+
+.num-3 {
+    padding-top: 4.5rem;
+}
+
+.space-title {
+    margin-bottom: 1.5rem;
+}
+
+.nav-space {
+    padding-bottom: 10.063rem;
+}
+
 @media (max-width: 767px) {
     .logo {
         max-width: 32px;
@@ -780,7 +830,7 @@ blue {
     }
     .b-1 {
         border: 0.80px solid #005BDE;
-        padding: 0px 4px;
+        padding: 1px 7px;
         font-size: 0.5rem;
         border-radius: 22px;
     }
@@ -897,6 +947,7 @@ blue {
     }
     .item-do {
         font-size: 1.125rem;
+        padding-right: .25rem;
     }
     .bt-blue-1 {
         font-size: 21px;
@@ -954,6 +1005,7 @@ blue {
     .blue-bt {
         font-size: 8px;
         line-height: 9px;
+        padding: .25rem .5rem;
     }
     .foot-card-inf {
         font-size: 0.5rem;
@@ -1096,7 +1148,7 @@ blue {
         line-height: 0.813rem;
     }
     .blue-bt-s {
-        margin-top: 0.813rem;
+        margin-top: 2.6rem;
         border: 0.08rem solid #005BDE;
         border-radius: 2.762rem;
         padding: 0.25rem 0.5rem;
@@ -1173,6 +1225,28 @@ blue {
         padding-right: 4rem;
         padding-top: 2.188rem;
     }
+    .txt-none {
+        line-height: 0%;
+        font-size: 0%;
+    }
+    .txt-bt {
+        padding-right: 0rem;
+    }
+    .sup-1 {
+        padding-left: .1rem;
+    }
+    .num-1,
+    .num-2,
+    .num-4 {
+        padding-top: 0.75rem;
+    }
+    .num-3 {
+        padding-top: 1rem;
+    }
+    .card-center {
+        height: 5rem;
+    }
+    .nav-space {}
 }
 
 @media (min-width: 768px) and (max-width: 1020px) {
@@ -1271,6 +1345,7 @@ blue {
     }
     .item-do {
         font-size: 1.438rem;
+        padding-right: .5rem;
     }
     .bt-blue-1 {
         font-size: 32px;
@@ -1328,6 +1403,7 @@ blue {
     .blue-bt {
         font-size: 11px;
         line-height: 13px;
+        padding: .45rem .75rem;
     }
     .foot-card-inf {
         font-size: 0.75rem;
@@ -1475,7 +1551,7 @@ blue {
         line-height: 1.313rem;
     }
     .blue-bt-s {
-        margin-top: 1.875rem;
+        margin-top: 2.875rem;
         border: 0.08rem solid #005BDE;
         border-radius: 2.762rem;
         padding: 0.3rem 0.8rem;
@@ -1581,6 +1657,33 @@ blue {
     .img-1 {
         width: 257.39px;
     }
+    .txt-none {
+        line-height: 0%;
+        font-size: 0%;
+    }
+    .txt-bt {
+        padding-right: 0.2rem;
+    }
+    .sup-1 {
+        padding-left: .15rem;
+    }
+    .num-1,
+    .num-2,
+    .num-4 {
+        padding-top: 1.75rem;
+    }
+    .num-3 {
+        padding-top: 2.5rem;
+    }
+    .card-center {
+        height: 6.5rem;
+    }
+    .space-title {
+        margin-bottom: .8rem;
+    }
+    .nav-space {
+        padding-bottom: 5.25rem;
+    }
 }
 
 @media (min-width: 1021px) and (max-width: 1919px) {
@@ -1599,7 +1702,7 @@ blue {
         padding-right: 6.61%;
     }
     .b-1 {
-        padding: 6px 10px;
+        padding: 7px 15px;
     }
     .arrow {
         width: 27px;
@@ -1670,7 +1773,7 @@ blue {
         border: 1.22958px solid #005BDE;
         box-sizing: border-box;
         border-radius: 43.6624px;
-        padding: 0px 16px 6px 8px;
+        padding: 0rem 1rem 0.375rem 0.5rem;
     }
     .tabs-con,
     .why-we {
@@ -1712,6 +1815,7 @@ blue {
     .blue-bt {
         font-size: 11px;
         line-height: 13px;
+        padding: .45rem .75rem;
     }
     .foot-card-inf {
         font-size: 0.75rem;
@@ -1904,11 +2008,11 @@ blue {
     }
     .card-space-5 {
         margin-top: 3.75rem;
-        width: 50.25rem;
+        width: 47.25rem;
         height: auto;
     }
     .card-space-6 {
-        margin-top: -5.813rem;
+        margin-top: -8.813rem;
     }
     .card-space-6>.space-item {
         width: 31.75rem;
@@ -1940,6 +2044,20 @@ blue {
     }
     .img-1 {
         width: 324.39px;
+    }
+    .num-1,
+    .num-2,
+    .num-4 {
+        padding-top: 1.75rem;
+    }
+    .num-3 {
+        padding-top: 2.5rem;
+    }
+    .card-center {
+        height: 6.5rem;
+    }
+    .space-title {
+        margin-bottom: .8rem;
     }
 }
 
@@ -2004,5 +2122,21 @@ blue {
     }
     .img-1 {
         width: 479.39px;
+    }
+}
+
+@media (min-width: 1366px) and (max-width: 1430px) {
+    .card-index {
+        padding-right: 2.813rem;
+    }
+    .nav-pills .nav-link {
+        padding-top: 10px;
+    }
+    .bt-blue-1,
+    .blue-bt-s {
+        padding: .25rem 1rem .188rem .5rem;
+    }
+    .img-1 {
+        width: 460.39px;
     }
 }
