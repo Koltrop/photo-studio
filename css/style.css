@@ -341,7 +341,7 @@ header .txt-14:hover {
     border-radius: 34.5px;
     margin-right: 1.25rem;
     margin-bottom: 5.563rem;
-    font-family: "AvantGardeGothicC";
+    font-family: system-ui;
     text-align: center;
     justify-content: center;
     justify-items: center;
@@ -400,7 +400,7 @@ header .txt-14:hover {
     border-radius: 34.5px;
     font-size: 20px;
     line-height: 24px;
-    font-family: "AvantGardeGothicC";
+    font-family: system-ui;
 }
 
 .foot-card-inf {
