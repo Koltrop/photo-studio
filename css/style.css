@@ -95,7 +95,8 @@ body {
 }
 
 .container {
-    max-width: 1920px;
+    /*max-width: 1920px;*/
+    max-width: 100%;
     width: 100%;
     padding-left: 127px;
     padding-right: 127px;
@@ -132,6 +133,7 @@ header {
     box-sizing: border-box;
     border-radius: 34.5px;
     padding: 9px 18px;
+    padding-right: 14px;
     color: #ffffff;
 }
 
@@ -286,7 +288,7 @@ header .txt-14:hover {
     font-weight: normal;
     font-size: 67.3372px;
     line-height: 81px;
-    border: 2.477px solid #005BDE;
+    border: 3.477px solid #005BDE;
     box-sizing: border-box;
     border-radius: 47.6101px;
     padding: 0px 29px 12px 23px;
@@ -378,11 +380,12 @@ header .txt-14:hover {
 
 .card {
     border: none;
+    height: -webkit-fill-available;
 }
 
 .card-index {
     width: 1050px;
-    height: auto;
+    height: 745px;
     padding-right: 70px;
 }
 
@@ -676,12 +679,19 @@ blue {
     margin-top: 3.813rem;
     width: 85.813rem;
     height: auto;
+    padding: 0%;
 }
 
 .card-space-3 {
     margin-top: -6.813rem;
     width: 59.375rem;
     height: auto;
+    padding: 0%;
+    padding-right: 61px;
+}
+
+.card-space-3>.space-item {
+    padding: 0%;
 }
 
 .card-space-4 {
@@ -691,12 +701,14 @@ blue {
 .card-space-4>.space-item {
     width: 44.375rem;
     height: auto;
+    padding: 0%;
 }
 
 .card-space-5 {
     margin-top: 4.25rem;
     width: 86.25rem;
     height: auto;
+    padding: 0%;
 }
 
 .card-space-6 {
@@ -706,6 +718,7 @@ blue {
 .card-space-6>.space-item {
     width: 50.375rem;
     height: auto;
+    padding: 0%;
 }
 
 .card-space-7 {
@@ -715,6 +728,8 @@ blue {
 .card-space-7>.space-item {
     width: 52.5rem;
     height: auto;
+    padding: 0%;
+    padding-right: 61px;
 }
 
 .card-space-8 {
@@ -725,6 +740,7 @@ blue {
 .card-space-8>.space-item {
     width: 51.25rem;
     height: auto;
+    padding: 0%;
 }
 
 .menu>.row>.col-auto {
@@ -783,14 +799,20 @@ blue {
 }
 
 .txt-bt {
-    padding-right: 0.625rem;
+    padding-right: 0.325rem;
     padding-left: 0%;
     padding-top: 0%;
     padding-bottom: 0%;
 }
 
 .card-center {
-    height: 11.188rem;
+    height: 17.188rem;
+    margin-left: 1.813rem;
+}
+
+.card-center-space {
+    height: 7.188rem;
+    margin-left: 1.813rem;
 }
 
 .sup-1 {
@@ -813,6 +835,10 @@ blue {
 
 .nav-space {
     padding-bottom: 10.063rem;
+}
+
+.menu-1 {
+    padding-right: 15px!important;
 }
 
 @media (max-width: 767px) {
@@ -1254,6 +1280,53 @@ blue {
         height: 5rem;
     }
     .nav-space {}
+    .menu-1 {}
+    .card-space-2 {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+    .card-space-3 {
+        padding-right: 0%;
+    }
+    .card-space-3>.space-item {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+    .card-space-4 {}
+    .card-space-4>.space-item {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+    .card-space-5 {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+    .card-space-6 {}
+    .card-space-6>.space-item {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+    .card-space-7 {}
+    .card-space-7>.space-item {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+    .card-space-8 {}
+    .card-space-8>.space-item {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+    .card-center-space {
+        height: 4.188rem;
+        margin-left: 0.813rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1020px) {
@@ -1618,14 +1691,14 @@ blue {
         margin-top: -5.813rem;
     }
     .card-space-6>.space-item {
-        width: 26.75rem;
+        width: 22.75rem;
         height: auto;
     }
     .card-space-7 {
         margin-top: -3.813rem;
     }
     .card-space-7>.space-item {
-        width: 18.563rem;
+        width: 24.563rem;
         height: auto;
     }
     .card-space-8 {
@@ -2145,5 +2218,60 @@ blue {
     }*/
     .img-1 {
         width: 460.39px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .card-space-1 {
+        width: 55.438rem;
+        height: auto;
+    }
+    .card-space-2 {
+        margin-top: 3.813rem;
+        width: 103.813rem;
+        height: auto;
+    }
+    .card-space-3 {
+        margin-top: -6.813rem;
+        width: 63.375rem;
+        height: auto;
+    }
+    .card-space-4>.space-item {
+        width: 77.375rem;
+        height: auto;
+    }
+    .card-space-5 {
+        margin-top: 4.25rem;
+        width: 100.25rem;
+        height: auto;
+    }
+    .card-space-6 {
+        margin-top: -10.813rem;
+    }
+    .card-space-6>.space-item {
+        width: 77.375rem;
+        height: auto;
+    }
+    .card-space-7 {
+        margin-top: -7.813rem;
+    }
+    .card-space-7>.space-item {
+        width: 60.5rem;
+        height: auto;
+    }
+    .card-space-8 {
+        margin-top: -2.813rem;
+        margin-bottom: 6rem;
+    }
+    .card-space-8>.space-item {
+        width: 76.25rem;
+        height: auto;
+    }
+    .img-1 {
+        width: 845px;
+        height: auto;
+    }
+    .img-1-1 {
+        width: 845px;
     }
 }
