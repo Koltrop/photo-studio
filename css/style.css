@@ -146,7 +146,7 @@ footer {
 
 .f-cont-1 {
     color: rgba(255, 255, 255, 0.4);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 1.25rem;
     line-height: 1.875rem;
     margin-bottom: 56px;
@@ -228,7 +228,7 @@ header .txt-14:hover {
     font-style: normal;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.5);
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-size: 1.25rem;
     line-height: 1.875rem;
     margin-bottom: 2.438rem;
@@ -290,6 +290,9 @@ header .txt-14:hover {
     border-radius: 47.6101px;
     padding: 0px 15px 6px 15px;
     font-family: 'AvantGardeGothicCTT';
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .tabs-con,
@@ -339,6 +342,9 @@ header .txt-14:hover {
     margin-right: 1.25rem;
     margin-bottom: 5.563rem;
     font-family: "AvantGardeGothicC";
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
 }
 
 .nav-link.active {
@@ -2129,13 +2135,13 @@ blue {
     .card-index {
         padding-right: 2.813rem;
     }
-    .nav-pills .nav-link {
+    /*.nav-pills .nav-link {
         padding-top: 10px;
     }
     .bt-blue-1,
     .blue-bt-s {
         padding: .25rem 1rem .188rem .5rem;
-    }
+    }*/
     .img-1 {
         width: 460.39px;
     }
