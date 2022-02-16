@@ -95,8 +95,8 @@ body {
 }
 
 .container {
-    /*max-width: 1920px;*/
-    max-width: 100%;
+    max-width: 1920px;
+    /*max-width: 100%;*/
     width: 100%;
     padding-left: 127px;
     padding-right: 127px;
@@ -784,8 +784,12 @@ blue {
 }
 
 .img-1 {
-    width: 552px;
+    width: 595px;
     height: auto;
+}
+
+.img-1-1 {
+    width: 100%;
 }
 
 .badge-1 {
@@ -2277,7 +2281,7 @@ blue {
     .img-contac {
         text-align: center;
     }
-    .img-fluid {
+    .map {
         width: 100%;
     }
 }
