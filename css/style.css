@@ -2274,4 +2274,10 @@ blue {
     .img-1-1 {
         width: 845px;
     }
+    .img-contac {
+        text-align: center;
+    }
+    .img-fluid {
+        width: 100%;
+    }
 }
