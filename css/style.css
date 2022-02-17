@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'AvantGardeGothicC';
-    src: url('AvantGardeGothicC.eot');
-    src: url('AvantGardeGothicC.eot?#iefix') format('embedded-opentype'), url('AvantGardeGothicC.woff2') format('woff2'), url('AvantGardeGothicC.woff') format('woff'), url('AvantGardeGothicC.ttf') format('truetype'), url('AvantGardeGothicC.svg#AvantGardeGothicC') format('svg');
+    src: url('font/AvantGardeGothicC.eot');
+    src: url('font/AvantGardeGothicC.eot?#iefix') format('embedded-opentype'), url('font/AvantGardeGothicC.woff2') format('woff2'), url('font/AvantGardeGothicC.woff') format('woff'), url('font/AvantGardeGothicC.ttf') format('truetype'), url('font/AvantGardeGothicC.svg#AvantGardeGothicC') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
