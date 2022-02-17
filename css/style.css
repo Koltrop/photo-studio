@@ -378,14 +378,14 @@ header .txt-14:hover {
     font-family: 'AvantGardeGothicCTT';
 }
 
-.card {
+.card-index-1 {
     border: none;
-    height: -webkit-fill-available;
+    height: 100%;
 }
 
 .card-index {
     width: 1050px;
-    height: 745px;
+    height: 655px;
     padding-right: 70px;
 }
 
@@ -810,12 +810,12 @@ blue {
 }
 
 .card-center {
-    height: 17.188rem;
+    height: 11.188rem;
     margin-left: 1.813rem;
 }
 
 .card-center-space {
-    height: 7.188rem;
+    height: 11.188rem;
     margin-left: 1.813rem;
 }
 
