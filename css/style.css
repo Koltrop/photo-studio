@@ -1,5 +1,6 @@
 @font-face {
     font-family: 'AvantGardeGothicCTT';
+<<<<<<< Updated upstream
     src: url('font/AvantGardeGothicC-Demi.eot');
     src: url('font/AvantGardeGothicC-Demi.eot?#iefix') format('embedded-opentype'), url('font/AvantGardeGothicC-Demi.woff2') format('woff2'), url('font/AvantGardeGothicC-Demi.woff') format('woff'), url('font/AvantGardeGothicC-Demi.ttf') format('truetype'), url('font/AvantGardeGothicC-Demi.svg#AvantGardeGothicC-Demi') format('svg');
     font-weight: normal;
@@ -18,12 +19,30 @@
 
 * {
     -webkit-font-smoothing: antialiased;
+=======
+    src: url(font/ofont.ru_AvantGardeGothicCTT\ 3.woff2) format('woff2'), url(font/ofont.ru_AvantGardeGothicCTT\ 3.woff) format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'AvantGardeGothicCTTBold';
+    src: url(font/avantgardegothicc-bold.woff2) format('woff2'), url(font/avantgardegothicc-bold.woff) format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 700;
+>>>>>>> Stashed changes
 }
 
 body {
     color: black;
     overflow-x: hidden!important;
+<<<<<<< Updated upstream
     font-family: "AvantGardeGothicC";
+=======
+    font-family: "AvantGardeGothicCTT";
+>>>>>>> Stashed changes
 }
 
 #reveal1,
@@ -108,6 +127,7 @@ header {
 }
 
 .menu {
+    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     font-size: 1.25rem;
@@ -210,6 +230,7 @@ header .txt-14:hover {
 }
 
 .footer-animation {
+    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
@@ -228,6 +249,7 @@ header .txt-14:hover {
 }
 
 .cont-1 {
+    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.5);
@@ -239,6 +261,7 @@ header .txt-14:hover {
 }
 
 .cont-2 {
+    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     font-size: 5.313rem;
@@ -257,6 +280,7 @@ header .txt-14:hover {
 }
 
 .numbers {
+    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     color: #005BDE;
@@ -304,6 +328,7 @@ header .txt-14:hover {
 }
 
 .w-w-1 {
+    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
@@ -315,6 +340,7 @@ header .txt-14:hover {
 }
 
 .w-w-2 {
+    font-family: "AvantGardeGothicCTTBold";
     color: #005BDE;
     font-style: normal;
     font-weight: bold;
@@ -351,11 +377,13 @@ header .txt-14:hover {
 }
 
 .nav-link.active {
+    font-family: "AvantGardeGothicCTTBold";
     font-weight: bold;
     font-family: 'AvantGardeGothicCTT';
 }
 
 .name-item {
+    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     font-size: 6.25rem;
@@ -368,6 +396,7 @@ header .txt-14:hover {
 }
 
 .size-item {
+    font-family: "AvantGardeGothicCTTBold";
     color: #ffffff;
     font-style: normal;
     font-weight: bold;
@@ -415,7 +444,12 @@ header .txt-14:hover {
     font-family: "AvantGardeGothicC";
 }
 
+b {
+    font-family: "AvantGardeGothicCTTBold";
+}
+
 blue {
+    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     color: #005BDE;
@@ -525,6 +559,7 @@ blue {
 }
 
 .contac-2 {
+    font-family: 'AvantGardeGothicCTTBold';
     font-style: normal;
     font-weight: bold;
     color: #000000;
@@ -582,7 +617,12 @@ blue {
 }
 
 .name-room {
+<<<<<<< Updated upstream
     margin-top: 25.063rem;
+=======
+    font-family: 'AvantGardeGothicCTTBold';
+    margin-top: 28.063rem;
+>>>>>>> Stashed changes
     font-style: normal;
     font-weight: bold;
     color: #ffffff;
@@ -618,6 +658,7 @@ blue {
 }
 
 .sal-cont-1 {
+    font-family: 'AvantGardeGothicCTTBold';
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
