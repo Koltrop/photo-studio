@@ -1,6 +1,5 @@
 @font-face {
     font-family: 'AvantGardeGothicCTT';
-<<<<<<< Updated upstream
     src: url('font/AvantGardeGothicC-Demi.eot');
     src: url('font/AvantGardeGothicC-Demi.eot?#iefix') format('embedded-opentype'), url('font/AvantGardeGothicC-Demi.woff2') format('woff2'), url('font/AvantGardeGothicC-Demi.woff') format('woff'), url('font/AvantGardeGothicC-Demi.ttf') format('truetype'), url('font/AvantGardeGothicC-Demi.svg#AvantGardeGothicC-Demi') format('svg');
     font-weight: normal;
@@ -8,10 +7,30 @@
     font-display: swap;
 }
 
-@font-face {
+
+/*@font-face {
     font-family: 'AvantGardeGothicC';
     src: url('font/AvantGardeGothicC.eot');
     src: url('font/AvantGardeGothicC.eot?#iefix') format('embedded-opentype'), url('font/AvantGardeGothicC.woff2') format('woff2'), url('font/AvantGardeGothicC.woff') format('woff'), url('font/AvantGardeGothicC.ttf') format('truetype'), url('font/AvantGardeGothicC.svg#AvantGardeGothicC') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}*/
+
+
+/*@font-face {
+    font-family: 'AvantGardeGothicC';
+    src: url('font/AvantGardeGothicC-Book.eot');
+    src: url('font/AvantGardeGothicC-Book.eot?#iefix') format('embedded-opentype'), url('font/AvantGardeGothicC-Book.woff2') format('woff2'), url('font/AvantGardeGothicC-Book.woff') format('woff'), url('font/AvantGardeGothicC-Book.ttf') format('truetype'), url('font/AvantGardeGothicC-Book.svg#AvantGardeGothicC-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}*/
+
+@font-face {
+    font-family: 'AvantGardeGothicC';
+    src: url('font/AvantGardeCTT.eot');
+    src: url('AvantGardeCTT.eot?#iefix') format('font/embedded-opentype'), url('font/AvantGardeCTT.woff2') format('font/woff2'), url('font/AvantGardeCTT.woff') format('woff'), url('font/AvantGardeCTT.ttf') format('truetype'), url('font/AvantGardeCTT.svg#AvantGardeCTT') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -19,30 +38,12 @@
 
 * {
     -webkit-font-smoothing: antialiased;
-=======
-    src: url(font/ofont.ru_AvantGardeGothicCTT\ 3.woff2) format('woff2'), url(font/ofont.ru_AvantGardeGothicCTT\ 3.woff) format('woff');
-    font-display: swap;
-    font-style: normal;
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: 'AvantGardeGothicCTTBold';
-    src: url(font/avantgardegothicc-bold.woff2) format('woff2'), url(font/avantgardegothicc-bold.woff) format('woff');
-    font-display: swap;
-    font-style: normal;
-    font-weight: 700;
->>>>>>> Stashed changes
 }
 
 body {
     color: black;
     overflow-x: hidden!important;
-<<<<<<< Updated upstream
     font-family: "AvantGardeGothicC";
-=======
-    font-family: "AvantGardeGothicCTT";
->>>>>>> Stashed changes
 }
 
 #reveal1,
@@ -114,8 +115,8 @@ body {
 }
 
 .container {
-    max-width: 1920px;
-    /*max-width: 100%;*/
+    /*max-width: 1920px;*/
+    max-width: 100%;
     width: 100%;
     padding-left: 127px;
     padding-right: 127px;
@@ -127,13 +128,12 @@ header {
 }
 
 .menu {
-    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     font-size: 1.25rem;
     line-height: 1.563rem;
     text-transform: uppercase;
-    font-family: 'AvantGardeGothicCTT';
+    font-family: 'AvantGardeGothicC';
 }
 
 .menu-item-active {
@@ -173,6 +173,8 @@ footer {
     font-size: 1.25rem;
     line-height: 1.875rem;
     margin-bottom: 56px;
+    font-family: 'AvantGardeGothicC';
+    font-weight: bold;
 }
 
 .f-cont-2 {
@@ -230,14 +232,13 @@ header .txt-14:hover {
 }
 
 .footer-animation {
-    font-family: "AvantGardeGothicCTTBold";
-    font-style: normal;
     font-weight: bold;
+    font-style: normal;
     text-transform: uppercase;
     color: #000000;
     font-size: 1.25rem;
     line-height: 1.563rem;
-    font-family: 'AvantGardeGothicCTT';
+    font-family: 'AvantGardeGothicC';
 }
 
 .social-animation a {
@@ -249,7 +250,6 @@ header .txt-14:hover {
 }
 
 .cont-1 {
-    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.5);
@@ -257,11 +257,10 @@ header .txt-14:hover {
     font-size: 1.25rem;
     line-height: 1.875rem;
     margin-bottom: 2.438rem;
-    font-family: 'AvantGardeGothicCTT';
+    font-family: 'AvantGardeGothicC';
 }
 
 .cont-2 {
-    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     font-size: 5.313rem;
@@ -280,7 +279,6 @@ header .txt-14:hover {
 }
 
 .numbers {
-    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     color: #005BDE;
@@ -328,7 +326,6 @@ header .txt-14:hover {
 }
 
 .w-w-1 {
-    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
@@ -340,7 +337,6 @@ header .txt-14:hover {
 }
 
 .w-w-2 {
-    font-family: "AvantGardeGothicCTTBold";
     color: #005BDE;
     font-style: normal;
     font-weight: bold;
@@ -377,13 +373,11 @@ header .txt-14:hover {
 }
 
 .nav-link.active {
-    font-family: "AvantGardeGothicCTTBold";
     font-weight: bold;
     font-family: 'AvantGardeGothicCTT';
 }
 
 .name-item {
-    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     font-size: 6.25rem;
@@ -396,7 +390,6 @@ header .txt-14:hover {
 }
 
 .size-item {
-    font-family: "AvantGardeGothicCTTBold";
     color: #ffffff;
     font-style: normal;
     font-weight: bold;
@@ -444,12 +437,7 @@ header .txt-14:hover {
     font-family: "AvantGardeGothicC";
 }
 
-b {
-    font-family: "AvantGardeGothicCTTBold";
-}
-
 blue {
-    font-family: "AvantGardeGothicCTTBold";
     font-style: normal;
     font-weight: bold;
     color: #005BDE;
@@ -559,7 +547,6 @@ blue {
 }
 
 .contac-2 {
-    font-family: 'AvantGardeGothicCTTBold';
     font-style: normal;
     font-weight: bold;
     color: #000000;
@@ -617,12 +604,7 @@ blue {
 }
 
 .name-room {
-<<<<<<< Updated upstream
     margin-top: 25.063rem;
-=======
-    font-family: 'AvantGardeGothicCTTBold';
-    margin-top: 28.063rem;
->>>>>>> Stashed changes
     font-style: normal;
     font-weight: bold;
     color: #ffffff;
@@ -658,7 +640,6 @@ blue {
 }
 
 .sal-cont-1 {
-    font-family: 'AvantGardeGothicCTTBold';
     font-style: normal;
     font-weight: bold;
     text-transform: uppercase;
@@ -884,6 +865,10 @@ blue {
 
 .menu-1 {
     padding-right: 15px!important;
+}
+
+.card {
+    border-style: hidden;
 }
 
 @media (max-width: 767px) {
@@ -2261,13 +2246,15 @@ blue {
     .blue-bt-s {
         padding: .25rem 1rem .188rem .5rem;
     }*/
+    .card-center-space {
+        height: 5.188rem;
+        margin-left: 1.813rem;
+    }
     .img-1 {
         width: 460.39px;
     }
 }
 
-
-/*
 @media (min-width: 2000px) {
     .card-space-1 {
         width: 55.438rem;
@@ -2327,4 +2314,7 @@ blue {
     .map {
         width: 100%;
     }
-}*/
+    .footer-animation {
+        margin-top: 25rem;
+    }
+}
