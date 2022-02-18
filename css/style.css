@@ -807,12 +807,14 @@ blue {
 }
 
 .img-1 {
-    width: 595px;
-    height: auto;
+    /*width: 595px;
+    height: auto;*/
+    padding-right: 8rem;
 }
 
 .img-1-1 {
     width: 100%;
+    max-width: 100%;
 }
 
 .badge-1 {
@@ -872,6 +874,10 @@ blue {
     border-style: hidden;
 }
 
+.inf {
+    align-items: flex-end;
+}
+
 @media (max-width: 767px) {
     .logo {
         max-width: 32px;
@@ -914,6 +920,8 @@ blue {
     }
     .invert {
         filter: invert(100%);
+        width: 90px;
+        height: auto;
     }
     .item-menu-footer {
         font-style: normal;
@@ -1095,6 +1103,7 @@ blue {
     .item-animation-1 {
         box-sizing: border-box;
         max-width: 100%;
+        width: 100%;
         overflow: hidden;
         position: absolute;
         height: 87px;
@@ -1110,6 +1119,7 @@ blue {
         visibility: visible;
         box-sizing: border-box;
         max-width: 100%;
+        width: 100%;
         height: 210px;
         top: 158px;
         animation: mov2 7s linear 1.12s infinite;
@@ -1123,6 +1133,7 @@ blue {
         visibility: visible;
         box-sizing: border-box;
         max-width: 100%;
+        width: 100%;
         height: 207px;
         top: 416px;
         background-size: contain;
@@ -1136,6 +1147,7 @@ blue {
         visibility: visible;
         box-sizing: border-box;
         max-width: 100%;
+        width: 100%;
         height: 165.96px;
         top: 342.36px;
         background-size: contain;
@@ -1149,6 +1161,7 @@ blue {
         visibility: visible;
         box-sizing: border-box;
         max-width: 100%;
+        width: 100%;
         background-size: contain;
         background-position: 200%;
         animation: mov5 7s linear 1s infinite;
@@ -1206,6 +1219,7 @@ blue {
         line-height: 4.125rem;
         border-bottom-width: 0.15rem;
         height: 66px;
+        margin-left: 50px;
     }
     .txt-sal {
         font-size: 0.563rem;
@@ -1357,6 +1371,25 @@ blue {
     .card-center-space {
         height: 4.188rem;
         margin-left: 0.813rem;
+    }
+    .img-1 {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+    }
+    .movil-img-sal {
+        width: 100%;
+    }
+}
+
+@media (min-width: 577px) and (max-width:767px) {
+    .f-cont-2 {
+        margin-bottom: 0%;
+    }
+    .f-cont-4 {
+        margin-bottom: 0%;
+    }
+    .ele-ind {
+        width: 241px;
+        margin: 0%
     }
 }
 
@@ -1766,7 +1799,8 @@ blue {
         padding-right: 5.5rem;
     }
     .img-1 {
-        width: 257.39px;
+        /*width: 257.39px;*/
+        padding-right: 3rem;
     }
     .txt-none {
         line-height: 0%;
@@ -2156,7 +2190,8 @@ blue {
         padding-right: 5.5rem;
     }
     .img-1 {
-        width: 324.39px;
+        /*width: 324.39px;*/
+        padding-right: 3rem;
     }
     .num-1,
     .num-2,
@@ -2233,9 +2268,9 @@ blue {
         width: 40.5rem;
         height: auto;
     }
-    .img-1 {
+    /*.img-1 {
         width: 479.39px;
-    }
+    }*/
 }
 
 @media (min-width: 1366px) and (max-width: 1430px) {
@@ -2253,9 +2288,9 @@ blue {
         height: 5.188rem;
         margin-left: 1.813rem;
     }
-    .img-1 {
+    /*.img-1 {
         width: 460.39px;
-    }
+    }*/
     .card-space-3 {
         margin-top: -6.813rem;
         width: 43.375rem;
@@ -2340,13 +2375,13 @@ blue {
         width: 76.25rem;
         height: auto;
     }
-    .img-1 {
+    /*.img-1 {
         width: 845px;
         height: auto;
     }
     .img-1-1 {
         width: 845px;
-    }
+    }*/
     .img-contac {
         text-align: center;
     }
@@ -2354,6 +2389,9 @@ blue {
         width: 100%;
     }
     .footer-animation {
-        margin-top: 25rem;
+        margin-top: 15rem;
+    }
+    .img-1-2 {
+        width: 100%;
     }
 }
