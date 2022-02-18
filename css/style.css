@@ -323,6 +323,7 @@ header .txt-14:hover {
 .tabs-con,
 .why-we {
     margin-top: 9.563rem;
+    margin-right: 0%;
 }
 
 .w-w-1 {
@@ -1888,6 +1889,8 @@ blue {
     .tabs-con,
     .why-we {
         margin-top: 5.063rem;
+        margin-right: 0%;
+        padding-right: 0%;
     }
     .w-w-1 {
         font-size: 3.75rem;
@@ -2252,6 +2255,42 @@ blue {
     }
     .img-1 {
         width: 460.39px;
+    }
+    .card-space-3 {
+        margin-top: -6.813rem;
+        width: 43.375rem;
+        height: auto;
+    }
+    .card-space-4>.space-item {
+        width: 31.375rem;
+        height: auto;
+    }
+    .card-space-5 {
+        margin-top: 4.25rem;
+        width: 58.25rem;
+        height: auto;
+    }
+    .card-space-6 {
+        margin-top: -10.813rem;
+    }
+    .card-space-6>.space-item {
+        width: 39.375rem;
+        height: auto;
+    }
+    .card-space-7 {
+        margin-top: -7.813rem;
+    }
+    .card-space-7>.space-item {
+        width: 35.5rem;
+        height: auto;
+    }
+    .card-space-8 {
+        margin-top: -2.813rem;
+        margin-bottom: 6rem;
+    }
+    .card-space-8>.space-item {
+        width: 39.25rem;
+        height: auto;
     }
 }
 
