@@ -953,11 +953,16 @@ blue {
 }
 
 .foo-item-space-3 {
-    width: 41.979vw;
+    height: 41.979vw;
 }
 
 .row-card-space-2 {
     margin-top: 3.813rem;
+}
+
+.card-img-ind {
+    height: 35.256vw;
+    width: 51.2167vw;
 }
 
 @media (max-width: 767px) {
