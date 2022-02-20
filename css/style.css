@@ -1409,6 +1409,9 @@ blue {
     header {
         padding-top: 1.5rem;
     }
+    .m-space {
+        margin-bottom: 4.375rem;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1020px) {
