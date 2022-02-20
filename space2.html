@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script type="text/javascript" src="assets/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/lib/gsap3/gsap.min.js"></script>
+    <script type="text/javascript" src="scrollmagic/uncompressed/ScrollMagic.js"></script>
+    <script type="text/javascript" src="scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+    <script type="text/javascript" src="scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+
+    <title>станция</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="container d-sm-block d-none d-md-block m-space">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-auto">
+                    <a href="index.html"><img src="img/logo-2.svg" class="logo" alt=""></a>
+                </div>
+                <div class="col-auto menu">
+                    <div class="row align-items-center">
+                        <div class="col-auto menu-1">
+                            <a href="index.html"> о нас</a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="space.html">
+                                <div class="col-auto  menu-item-active">
+                                    <div class="position-relative">
+                                        пространства <span class="position-absolute top-0 start-100 translate-middle badge-1 txt-14">14</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-auto">
+                            <a href="contact.html">контакты</a>
+
+                        </div>
+                        <div class="col-auto">
+                            <a href="#">
+                                <div class="b-1 row align-items-center">
+                                    <div class="col-auto txt-bt">
+                                        забронировать
+                                    </div>
+                                    <div class="col-auto" style="padding: 0%;">
+                                        <img src="img/arrow.svg" class="arrow" alt="">
+                                    </div>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-block d-sm-none d-md-none" style="margin-bottom: 70px;">
+            <nav class="navbar navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img src="img/logo-2.svg" class="logo" alt=""></a>
+                    <div class="col-auto movil-1">
+                        <a href="#">
+                            <div class="b-1 row align-items-center">
+                                <div class="col-auto txt-bt">
+                                    забронировать
+                                </div>
+                                <div class="col-auto" style="padding: 0%;">
+                                    <img src="img/arrow.svg" class="arrow" alt="">
+                                </div>
+
+                            </div>
+                        </a>
+
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <div class="offcanvas-title" id="offcanvasNavbarLabel">
+                                <a href="index.html"><img src="img/logo-2.svg" class="logo" alt=""></a>
+
+                            </div>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body menu">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a href="index.html"> о нас</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="space.html">
+                                        <div class="position-relative menu-item-active">
+                                            пространства <span class="position-absolute top-0 translate-middle badge">14</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="contact.html">контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="offcanvas-footer">
+                            <div class="row justify-content-between align-items-center">
+                                <div class="col-auto">
+                                    <img src="img/copyright.svg" class="invert" alt="">
+                                </div>
+                                <div class="col-auto">
+                                    <div class="row item-menu-footer">
+                                        <div class="col-auto ">
+                                            <a href="#" class="link-menu-m">fb</a>
+                                        </div>
+                                        <div class="col-auto ">
+                                            <a href="#" class="link-menu-m">ig</a>
+                                        </div>
+                                        <div class="col-auto ">
+                                            <a href="#" class="link-menu-m">tg</a>
+                                        </div>
+                                        <div class="col-auto ">
+                                            <a href="#" class="link-menu-m">yt</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row space-1">
+            <div class="col-12 w-w-1 space-title">
+                <div class="row">
+                    <div class="col-auto">
+                        <div class="position-relative">
+                            Пространства<span class="position-absolute top-0 start-100 translate-middle badge w-w-2 w-4 num-4" style="color: black;">14</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class=" justify-content-between">
+            <ul class="nav nav-pills nav-space" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <button class="nav-link active" id="sal-tab" data-bs-toggle="tab" data-bs-target="#sal" type="button" role="tab" aria-controls="sal" aria-selected="true">залы</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" id="cowo-tab" data-bs-toggle="tab" data-bs-target="#cowo" type="button" role="tab" aria-controls="cowo" aria-selected="false">коворкинг</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" id="convers-tab" data-bs-toggle="tab" data-bs-target="#convers" type="button" role="tab" aria-controls="convers" aria-selected="false">переговорные</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" id="dresRoom-tab" data-bs-toggle="tab" data-bs-target="#dresRoom" type="button" role="tab" aria-controls="dresRoom" aria-selected="false">гримерные</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" id="rental-tab" data-bs-toggle="tab" data-bs-target="#rental" type="button" role="tab" aria-controls="rental" aria-selected="false">рентал</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active space-tabs" id="sal">
+                    <div class="row justify-content-between ">
+                        <div class="col-auto order-sm-first order-md-last order-lg-last align-self-end ms-auto links-space space-item digit">
+                            <div class="row">
+                                <div class="col-auto">
+                                    Рассвет / Юнити / Заря /
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-auto">
+                                    Звезда / Поиск / Дестини /
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-auto">
+                                    Квест / Гармония
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-auto col-md-auto col-lg-auto card-space-1 order-sm-last order-md-first order-lg-first space-item digit">
+                            <a href="sala1.html">
+                                <div class="card text-white ">
+                                    <img src="img/110_ 3.png" class="img-fluid card-img" alt="...">
+                                    <div class="card-img-overlay row justify-content-center">
+                                        <div class="col-auto align-self-center card-center-space">
+                                            <div class="position-relative name-item ">
+                                                рассвет<span class="position-absolute top-45 start-0 translate-middle badge size-item">1/8</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="row justify-content-between foot-card-space">
+                                <div class="col-auto foot-card-inf">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <blue>30</blue> м<sup class="sup-1">2</sup>
+                                        </div>
+                                        <div class="col-auto">
+                                            <blue>2100</blue> р./ч.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end digit row-end">
+                        <div class="col-12 col-sm-auto col-md-auto col-lg-auto card-space-2 space-item">
+                            <a href="sala1.html">
+                                <div class="card text-white ">
+                                    <img src="img/110_ 5.png" class="img-fluid card-img" alt="...">
+                                    <div class="card-img-overlay row justify-content-center ">
+                                        <div class="col-auto align-self-center card-center-space">
+                                            <div class="position-relative name-item ">
+                                                юнити<span class="position-absolute top-45 start-0 translate-middle badge size-item">2/8</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="row justify-content-end foot-card-space">
+                                <div class="col-auto foot-card-inf">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <blue>78</blue> м<sup class="sup-1">2</sup>
+                                        </div>
+                                        <div class="col-auto">
+                                            <blue>2100</blue> р./ч.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row card-space-3 digit">
+                        <div class="col-12 col-sm-auto col-md-auto col-lg-auto  space-item">
+                            <a href="sala1.html">
+                                <div class="card text-white ">
+                                    <img src="img/DSCF2729 3.png" class="img-fluid card-img" alt="...">
+                                    <div class="card-img-overlay row justify-content-center">
+                                        <div class="col-auto align-self-center card-center-space">
+                                            <div class="position-relative name-item ">
+                                                заря<span class="position-absolute top-45 start-0 translate-middle badge size-item">3/8</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="row justify-content-between foot-card-space">
+                                <div class="col-auto foot-card-inf">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <blue>65</blue> м<sup class="sup-1">2</sup>
+                                        </div>
+                                        <div class="col-auto">
+                                            <blue>2100</blue> р./ч.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-end card-space-4 digit">
+                        <div class="col-12 col-sm-auto col-md-auto col-lg-auto  space-item">
+                            <a href="sala1.html">
+                                <div class="card text-white ">
+                                    <img src="img/DSCF2681 3.png" class="img-fluid card-img" alt="...">
+                                    <div class="card-img-overlay row justify-content-center">
+                                        <div class="col-auto align-self-center card-center-space">
+                                            <div class="position-relative name-item ">
+                                                звезда<span class="position-absolute top-45 start-0 translate-middle badge size-item">4/8</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="row justify-content-between foot-card-space">
+                                <div class="col-auto foot-card-inf">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <blue>22</blue> м<sup class="sup-1">2</sup>
+                                        </div>
+                                        <div class="col-auto">
+                                            <blue>2100</blue> р./ч.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row digit">
+                        <div class="col-12 col-sm-auto col-md-auto col-lg-auto card-space-5 space-item">
+                            <a href="sala1.html">
+                                <div class="card text-white ">
+                                    <img src="img/1612462207_76-p-fon-seroi-komnati-104 7.png" class="img-fluid card-img" alt="...">
+                                    <div class="card-img-overlay row justify-content-center">
+                                        <div class="col-auto align-self-center card-center-space">
+                                            <div class="position-relative name-item ">
+                                                поиск<span class="position-absolute top-45 start-0 translate-middle badge size-item">5/8</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="row justify-content-between foot-card-space">
+                                <div class="col-auto foot-card-inf">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <blue>87</blue> м<sup class="sup-1">2</sup>
+                                        </div>
+                                        <div class="col-auto">
+                                            <blue>2100</blue> р./ч.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-end card-space-6 digit">
+                        <div class="col-12 col-sm-auto col-md-auto col-lg-auto  space-item">
+                            <a href="sala1.html">
+                                <div class="card text-white ">
+                                    <img src="img/110_ 5.png" class="img-fluid card-img" alt="...">
+                                    <div class="card-img-overlay row justify-content-center">
+                                        <div class="col-auto align-self-center card-center-space">
+                                            <div class="position-relative name-item ">
+                                                дестини<span class="position-absolute top-45 start-0 translate-middle badge size-item">6/8</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="row justify-content-between foot-card-space">
+                                <div class="col-auto foot-card-inf">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <blue>59</blue> м<sup class="sup-1">2</sup>
+                                        </div>
+                                        <div class="col-auto">
+                                            <blue>2100</blue> р./ч.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row card-space-7 digit">
+                        <div class="col-12 col-sm-auto col-md-auto col-lg-auto  space-item">
+                            <a href="sala1.html">
+                                <div class="card text-white ">
+                                    <img src="img/DSCF2729 3.png" class="img-fluid card-img" alt="...">
+                                    <div class="card-img-overlay row justify-content-center">
+                                        <div class="col-auto align-self-center card-center-space">
+                                            <div class="position-relative name-item ">
+                                                квест<span class="position-absolute top-45 start-0 translate-middle badge size-item">7/8</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="row justify-content-between foot-card-space">
+                                <div class="col-auto foot-card-inf">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <blue>52</blue> м<sup class="sup-1">2</sup>
+                                        </div>
+                                        <div class="col-auto">
+                                            <blue>2100</blue> р./ч.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-end card-space-8 digit">
+                        <div class="col-12 col-sm-auto col-md-auto col-lg-auto  space-item">
+                            <a href="sala1.html">
+                                <div class="card text-white ">
+                                    <img src="img/DSCF2681 3.png" class="img-fluid card-img" alt="...">
+                                    <div class="card-img-overlay row justify-content-center">
+                                        <div class="col-auto align-self-center card-center-space">
+                                            <div class="position-relative name-item ">
+                                                гармония<span class="position-absolute top-45 start-0 translate-middle badge size-item">8/8</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="row justify-content-between foot-card-space">
+                                <div class="col-auto foot-card-inf">
+                                    <div class="row">
+                                        <div class="col-auto">
+                                            <blue>47</blue> м<sup class="sup-1">2</sup>
+                                        </div>
+                                        <div class="col-auto">
+                                            <blue>2100</blue> р./ч.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade space-tabs" id="cowo">imagenes de coworking</div>
+                <div class="tab-pane fade space-tabs" id="convers">imagenes de salas de conversacion</div>
+                <div class="tab-pane fade space-tabs" id="dresRoom">imagenes de camerinos</div>
+                <div class="tab-pane fade space-tabs" id="rental">imagenes de rental</div>
+            </div>
+        </div>
+
+    </div>
+    <div id="trigger1"></div>
+    <footer id="reveal1">
+        <div class="container">
+            <div class="row f-cont-1">
+                <div class="col-auto">
+                    сТанция –
+                    <font color="#ffffff">контакты</font>
+                </div>
+            </div>
+            <div class="row f-cont-2">
+                <div class="col-auto">
+                    звоните нам или пишите </br>в <u><a href="#">телеграме</a></u>, <u><a href="#">инстаграме</a></u></br>
+                    и на почту <u>station@studio.com</u>
+                </div>
+            </div>
+            <div class="row d-none d-sm-block d-md-block">
+                <div class="col-auto">
+                    <div class="row item-menu-footer-2 f-2">
+                        <div class="col-auto ">
+                            <a href="#">fb</a>
+                        </div>
+                        <div class="col-auto ">
+                            <a href="#">ig</a>
+                        </div>
+                        <div class="col-auto ">
+                            <a href="#">tg</a>
+                        </div>
+                        <div class="col-auto ">
+                            <a href="#">yt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row d-none d-sm-block d-md-block">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-6 align-self-end">
+                            <img src="img/copyright.svg" class="copy" alt="">
+                        </div>
+                        <div class="col-6">
+                            <div class="row f-cont-3 justify-content-between">
+                                <div class="col-6">
+                                    НАШ АДРЕС
+                                </div>
+                                <div class="col-5">
+                                    для связи
+                                </div>
+                            </div>
+                            <div class="row f-cont-4 justify-content-between">
+                                <div class="col-6">
+                                    санкт-петербург, </br>красного текстильщика, </br>10-12
+                                </div>
+                                <div class="col-5">
+                                    +7 (943) 746 36 78 </br>station@gmail.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="d-block d-sm-none d-md-none">
+                <div class="row f-cont-3">
+                    <div class="col-6">
+                        НАШ АДРЕС
+                    </div>
+                    <div class="col-5">
+                        для связи
+                    </div>
+                </div>
+                <div class="row f-cont-4">
+                    <div class="col-6">
+                        санкт-петербург, </br>красного текстильщика, </br>10-12
+                    </div>
+                    <div class="col-5">
+                        +7 (943) 746 36 78 </br>station@gmail.com
+                    </div>
+                </div>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto align-self-end">
+                        <img src="img/copyright.svg" class="copy" alt="">
+                    </div>
+                    <div class="col-auto">
+                        <div class="row item-menu-footer-2">
+                            <div class="col-auto ">
+                                <a href="#">fb</a>
+                            </div>
+                            <div class="col-auto ">
+                                <a href="#">ig</a>
+                            </div>
+                            <div class="col-auto ">
+                                <a href="#">tg</a>
+                            </div>
+                            <div class="col-auto ">
+                                <a href="#">yt</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animation.js"></script>
+</body>
+
+</html>

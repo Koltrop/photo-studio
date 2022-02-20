@@ -878,7 +878,80 @@ blue {
     align-items: flex-end;
 }
 
+.row-item-1 {
+    width: 35.36vw;
+    background-image: url(img/110_\ 3.png);
+    background-size: cover;
+    height: 24.48vw;
+}
+
+.size-item-space {
+    top: -3.5rem;
+    padding-top: 0%;
+    padding-right: 0%;
+}
+
+.row-item-2 {
+    width: 71.51vw;
+    background-image: url(img/110_\ 5.png);
+    background-size: cover;
+    height: 49.01vw;
+    margin-left: auto;
+}
+
+.row-item-3 {
+    width: 46.30vw;
+    background-image: url(img/DSCF2729\ 3.png);
+    background-size: cover;
+    height: 31.97vw;
+}
+
+.row-item-4 {
+    width: 36.97vw;
+    background-image: url(img/DSCF2681\ 3.png);
+    background-size: cover;
+    height: 25.21vw;
+    margin-left: auto;
+}
+
+.row-item-5 {
+    width: 71.875vw;
+    background-image: url(img/1612462207_76-p-fon-seroi-komnati-104\ 7.png);
+    background-size: cover;
+    height: 49.375vw;
+}
+
+.row-item-6 {
+    width: 41.979vw;
+    background-image: url(img/110_\ 5.png);
+    background-size: cover;
+    height: 28.77vw;
+    margin-left: auto;
+}
+
+.row-item-7 {
+    width: 40.573vw;
+    background-image: url(img/DSCF2729\ 3.png);
+    background-size: cover;
+    height: 28.016vw;
+}
+
+.row-item-8 {
+    width: 36.97vw;
+    background-image: url(img/DSCF2681\ 3.png);
+    background-size: cover;
+    height: 25.21vw;
+    margin-left: auto;
+}
+
+.row-card-space-2 {
+    margin-top: 3.813rem;
+}
+
 @media (max-width: 767px) {
+    .row-item {
+        width: auto;
+    }
     .logo {
         max-width: 32px;
         width: auto;
@@ -1557,6 +1630,11 @@ blue {
         padding-top: 2.188rem;
         padding-right: 3.5rem;
     }
+    .size-item-space {
+        top: -2rem;
+        padding-top: 0%;
+        padding-right: 0%;
+    }
     .card-index {
         width: 473.56px;
         height: auto;
@@ -1972,6 +2050,11 @@ blue {
         line-height: 1.75rem;
         padding-top: 2.188rem;
         padding-right: 3.5rem;
+    }
+    .size-item-space {
+        top: -2rem;
+        padding-top: 0%;
+        padding-right: 0%;
     }
     .card-index {
         width: 473.56px;
