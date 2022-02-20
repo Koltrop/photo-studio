@@ -914,6 +914,10 @@ blue {
     margin-left: auto;
 }
 
+.foo-item-space-1 {
+    width: 36.97vw;
+}
+
 .row-item-5 {
     width: 71.875vw;
     background-image: url(img/1612462207_76-p-fon-seroi-komnati-104\ 7.png);
@@ -929,6 +933,10 @@ blue {
     margin-left: auto;
 }
 
+.foo-item-space-2 {
+    width: 41.979vw;
+}
+
 .row-item-7 {
     width: 40.573vw;
     background-image: url(img/DSCF2729\ 3.png);
@@ -937,11 +945,15 @@ blue {
 }
 
 .row-item-8 {
-    width: 36.97vw;
+    width: 41.979vw;
     background-image: url(img/DSCF2681\ 3.png);
     background-size: cover;
-    height: 25.21vw;
+    height: 28.77vw;
     margin-left: auto;
+}
+
+.foo-item-space-3 {
+    width: 41.979vw;
 }
 
 .row-card-space-2 {
