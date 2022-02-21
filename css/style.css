@@ -883,8 +883,8 @@ blue {
     background-image: url(img/110_\ 3.png);
     background-size: cover;
     height: 24.48vw;
-    margin-right: calc(var(--bs-gutter-x) * .5);
-    margin-left: calc(var(--bs-gutter-x) * .5);
+    /*margin-right: calc(var(--bs-gutter-x) * .5);
+    margin-left: calc(var(--bs-gutter-x) * .5);*/
 }
 
 .size-item-space {
@@ -899,7 +899,6 @@ blue {
     background-size: cover;
     height: 49.01vw;
     margin-left: auto;
-    margin-right: calc(var(--bs-gutter-x) * .5);
 }
 
 .row-item-3 {
@@ -907,8 +906,8 @@ blue {
     background-image: url(img/DSCF2729\ 3.png);
     background-size: cover;
     height: 31.97vw;
-    margin-right: calc(var(--bs-gutter-x) * .5);
-    margin-left: calc(var(--bs-gutter-x) * .5);
+    /*margin-right: calc(var(--bs-gutter-x) * .5);
+    margin-left: calc(var(--bs-gutter-x) * .5);*/
 }
 
 .row-item-4 {
@@ -917,7 +916,6 @@ blue {
     background-size: cover;
     height: 25.21vw;
     margin-left: auto;
-    margin-right: calc(var(--bs-gutter-x) * .5);
 }
 
 .foo-item-space-1 {
@@ -929,8 +927,8 @@ blue {
     background-image: url(img/1612462207_76-p-fon-seroi-komnati-104\ 7.png);
     background-size: cover;
     height: 49.375vw;
-    margin-right: calc(var(--bs-gutter-x) * .5);
-    margin-left: calc(var(--bs-gutter-x) * .5);
+    /* margin-right: calc(var(--bs-gutter-x) * .5);
+    margin-left: calc(var(--bs-gutter-x) * .5);*/
 }
 
 .row-item-6 {
@@ -939,7 +937,6 @@ blue {
     background-size: cover;
     height: 28.77vw;
     margin-left: auto;
-    margin-right: calc(var(--bs-gutter-x) * .5);
 }
 
 .foo-item-space-2 {
@@ -951,8 +948,8 @@ blue {
     background-image: url(img/DSCF2729\ 3.png);
     background-size: cover;
     height: 28.016vw;
-    margin-right: calc(var(--bs-gutter-x) * .5);
-    margin-left: calc(var(--bs-gutter-x) * .5);
+    /*margin-right: calc(var(--bs-gutter-x) * .5);
+    margin-left: calc(var(--bs-gutter-x) * .5);*/
 }
 
 .row-item-8 {
@@ -961,7 +958,6 @@ blue {
     background-size: cover;
     height: 28.77vw;
     margin-left: auto;
-    margin-right: calc(var(--bs-gutter-x) * .5);
 }
 
 .row-card-space-2 {
