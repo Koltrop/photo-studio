@@ -109,29 +109,28 @@ body {
 }
 
 .logo {
-    max-width: 100%;
     width: auto;
-    height: auto;
+    height: 2.96vw;
 }
 
 .container {
     /*max-width: 1920px;*/
     max-width: 100%;
     width: 100%;
-    padding-left: 127px;
-    padding-right: 127px;
+    padding-left: 6.61458vw;
+    padding-right: 6.61458vw;
 }
 
 header {
-    padding-top: 78px;
+    padding-top: 4.0625vw;
     font-family: 'AvantGardeGothicCTT';
 }
 
 .menu {
     font-style: normal;
     font-weight: bold;
-    font-size: 1.25rem;
-    line-height: 1.563rem;
+    font-size: 1.042vw;
+    line-height: 1.302vw;
     text-transform: uppercase;
     font-family: 'AvantGardeGothicC';
 }
@@ -159,8 +158,8 @@ header {
 
 footer {
     background: #005BDE;
-    padding-bottom: 91px;
-    padding-top: 66px;
+    padding-bottom: 4.73958vw;
+    padding-top: 3.4375vw;
     color: white;
     font-style: normal;
     font-weight: bold;
@@ -170,17 +169,17 @@ footer {
 .f-cont-1 {
     color: rgba(255, 255, 255, 0.4);
     text-transform: uppercase;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    margin-bottom: 56px;
+    font-size: 1.04166vw;
+    line-height: 1.5625vw;
+    margin-bottom: 2.91666vw;
     font-family: 'AvantGardeGothicC';
     font-weight: bold;
 }
 
 .f-cont-2 {
-    font-size: 5.313rem;
-    line-height: 6.063rem;
-    margin-bottom: 53px;
+    font-size: 4.42708vw;
+    line-height: 5.05208vw;
+    margin-bottom: 2.76041vw;
 }
 
 a {
@@ -202,33 +201,28 @@ header .txt-14:hover {
 }
 
 .item-menu-footer-2 {
-    font-size: 2.188rem;
-    line-height: 3.25rem;
+    font-size: 1.82291vw;
+    line-height: 2.70833vw;
     text-transform: uppercase;
-    margin-top: 53px;
-}
-
-.copy {
-    width: 161px;
-    height: auto;
+    margin-top: 2.76041vw;
 }
 
 .f-cont-3 {
     text-transform: uppercase;
-    font-size: 1.25rem;
-    line-height: 1.438rem;
-    margin-bottom: 24px;
+    font-size: 1.04166vw;
+    line-height: 1.19791vw;
+    margin-bottom: 1.25vw;
 }
 
 .f-cont-4 {
     font-weight: normal;
-    font-size: 1.813rem;
-    line-height: 2.688rem;
+    font-size: 1.51041vw;
+    line-height: 2.29166vw;
     font-family: "AvantGardeGothicC";
 }
 
 .f-2 {
-    margin-bottom: 100px;
+    margin-bottom: 5.20833vw;
 }
 
 .footer-animation {
@@ -236,8 +230,8 @@ header .txt-14:hover {
     font-style: normal;
     text-transform: uppercase;
     color: #000000;
-    font-size: 1.25rem;
-    line-height: 1.563rem;
+    font-size: 1.04166vw;
+    line-height: 1.30208vw;
     font-family: 'AvantGardeGothicC';
 }
 
@@ -254,9 +248,9 @@ header .txt-14:hover {
     font-weight: bold;
     color: rgba(0, 0, 0, 0.5);
     text-transform: uppercase;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    margin-bottom: 2.438rem;
+    font-size: 1.04166vw;
+    line-height: 1.5625vw;
+    margin-bottom: 2.91666vw;
     font-family: 'AvantGardeGothicC';
 }
 
@@ -282,19 +276,19 @@ header .txt-14:hover {
     font-style: normal;
     font-weight: bold;
     color: #005BDE;
-    font-size: 10rem;
-    line-height: 10.375rem;
+    font-size: 8.33vw;
+    line-height: 10.31vw;
     text-align: center;
-    margin-top: 11.75rem;
-    margin-bottom: 3.438rem;
+    margin-top: 9.79166vw;
+    margin-bottom: 2.86458vw;
     font-family: 'AvantGardeGothicCTT';
 }
 
 .numbers span {
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 1.25vw;
+    line-height: 1.875vw;
     text-align: center;
     color: #000000;
     font-family: "AvantGardeGothicC";
@@ -308,11 +302,11 @@ header .txt-14:hover {
     color: #005BDE;
     font-style: normal;
     font-weight: normal;
-    font-size: 67.3372px;
-    line-height: 81px;
+    font-size: 3.49vw;
+    line-height: 4.22vw;
     border: 3.477px solid #005BDE;
     box-sizing: border-box;
-    border-radius: 47.6101px;
+    border-radius: 2.479vw;
     padding: 0px 29px 12px 23px;
     font-family: 'AvantGardeGothicCTT';
     text-align: center;
@@ -322,7 +316,7 @@ header .txt-14:hover {
 
 .tabs-con,
 .why-we {
-    margin-top: 9.563rem;
+    margin-top: 7.96875vw;
     margin-right: 0%;
 }
 
@@ -333,7 +327,7 @@ header .txt-14:hover {
     color: #000000;
     font-size: 6.25vw;
     line-height: 7.14vw;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.92708vw;
     font-family: 'AvantGardeGothicCTT';
 }
 
@@ -352,7 +346,7 @@ header .txt-14:hover {
     font-weight: normal;
     font-size: 1.51vw;
     line-height: 2.24vw;
-    margin-bottom: 5.625rem;
+    margin-bottom: 4.58333vw;
     font-family: "AvantGardeGothicC";
 }
 
@@ -361,10 +355,10 @@ header .txt-14:hover {
     color: #000000;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+    font-size: 1.04166vw;
+    line-height: 1.04166vw;
     border: 1px solid #000000;
-    border-radius: 34.5px;
+    border-radius: 1.796875vw;
     margin-right: 1.25rem;
     margin-bottom: 5.563rem;
     font-family: 'AvantGardeGothicC';
@@ -404,12 +398,6 @@ header .txt-14:hover {
 .card-index-1 {
     border: none;
     height: 100%;
-}
-
-.card-index {
-    width: 1050px;
-    height: 655px;
-    padding-right: 70px;
 }
 
 .foot-card {
@@ -543,31 +531,31 @@ blue {
 }
 
 .contac-1 {
-    margin-top: 8.125rem;
-    margin-bottom: 9.313rem;
+    margin-top: 6.61458vw;
+    margin-bottom: 7.70833vw;
 }
 
 .contac-2 {
     font-style: normal;
     font-weight: bold;
     color: #000000;
-    font-size: 3.125rem;
-    line-height: 4.375rem;
-    margin-bottom: 2.75rem;
+    font-size: 2.60416vw;
+    line-height: 3.64583vw;
+    margin-bottom: 2.29166vw;
     font-family: 'AvantGardeGothicCTT';
 }
 
 .contac-3 {
     font-style: normal;
     color: #000000;
-    margin-top: 1.25rem;
-    font-size: 1.813rem;
-    line-height: 2.688rem;
+    margin-top: 1.04166vw;
+    font-size: 1.51083vw;
+    line-height: 2.24vw;
 }
 
 .contac-3,
 .img-contac {
-    margin-bottom: 10rem;
+    margin-bottom: 8.33333vw;
 }
 
 .tab-pane>.row {
@@ -593,6 +581,7 @@ blue {
 
 .tab-pane>.row>.col-auto {
     display: inline-block;
+    padding-right: 6.2vw;
 }
 
 .head-room {
@@ -600,44 +589,44 @@ blue {
     background-size: cover;
     background-position: center;
     width: auto;
-    height: 81.7rem;
-    margin-bottom: 6.5rem;
+    height: 68.08333vw;
+    margin-bottom: 5.41666vw;
 }
 
 .name-room {
-    margin-top: 25.063rem;
+    margin-top: 20.88583vw;
     font-style: normal;
     font-weight: bold;
     color: #ffffff;
     border-bottom-style: solid;
-    font-size: 8.75rem;
-    line-height: 12.25rem;
+    font-size: 7.29166vw;
+    line-height: 10.20833vw;
     border-bottom-width: 0.438rem;
     font-family: 'AvantGardeGothicCTT';
-    height: 190px;
+    height: 9.89583vw;
 }
 
 .txt-sal {
     font-style: normal;
     font-weight: normal;
     color: #000000;
-    font-size: 1.813rem;
-    line-height: 2.688rem;
+    font-size: 1.51041vw;
+    line-height: 2.29166vw;
     font-family: "AvantGardeGothicC";
 }
 
 .blue-bt-s {
-    margin-top: 3.5rem;
+    margin-top: 2.91666vw;
     color: #005BDE;
     border: 0.08rem solid #005BDE;
     box-sizing: border-box;
-    border-radius: 2.762rem;
+    border-radius: 2.30141vw;
     text-transform: uppercase;
     padding: 0.5rem 1rem;
 }
 
 .img-sal {
-    margin-top: 8.125rem;
+    margin-top: 6.77083vw;
 }
 
 .sal-cont-1 {
@@ -645,22 +634,22 @@ blue {
     font-weight: bold;
     text-transform: uppercase;
     color: rgba(0, 0, 0, 0.4);
-    font-size: 2.05rem;
-    line-height: 2.875rem;
-    margin-top: 9rem;
-    margin-bottom: 6.875rem;
+    font-size: 1.70225vw;
+    line-height: 2.39583vw;
+    margin-top: 7.5vw;
+    margin-bottom: 5.9375vw;
     font-family: 'AvantGardeGothicCTT';
 }
 
 .sal-cont-2 {
-    font-size: 4.29rem;
-    line-height: 6rem;
+    font-size: 3.57525vw;
+    line-height: 5vw;
     color: #000000;
     text-transform: lowercase;
 }
 
 .union {
-    width: 30px;
+    width: 1.5625vw;
     height: auto;
 }
 
@@ -670,7 +659,7 @@ blue {
 }
 
 .space-1 {
-    margin-top: 8.188rem;
+    margin-top: 6.82333vw;
 }
 
 .links-space {
@@ -678,9 +667,9 @@ blue {
     font-weight: normal;
     text-transform: lowercase;
     color: #000000;
-    font-size: 1.813rem;
-    line-height: 2.688rem;
-    padding-bottom: 93px;
+    font-size: 1.51041vw;
+    line-height: 2.29166vw;
+    padding-bottom: 4.84375vw;
     font-family: "AvantGardeGothicC";
 }
 
@@ -706,7 +695,7 @@ blue {
 }
 
 .card-space-3 {
-    margin-top: -6.813rem;
+    margin-top: -9.51083vw;
     width: 59.375rem;
     height: auto;
     padding: 0%;
@@ -767,8 +756,8 @@ blue {
 }
 
 .menu>.row>.col-auto {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 1.5625vw;
+    padding-right: 1.5625vw;
 }
 
 .txt-14 {
@@ -796,7 +785,7 @@ blue {
 }
 
 .copy {
-    height: 23px;
+    height: 1.19791vw;
     width: auto;
 }
 
@@ -809,7 +798,7 @@ blue {
 .img-1 {
     /*width: 595px;
     height: auto;*/
-    padding-right: 8rem;
+    padding-right: 6.66666vw;
 }
 
 .img-1-1 {
@@ -859,15 +848,15 @@ blue {
 }
 
 .space-title {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.35416vw;
 }
 
 .nav-space {
-    padding-bottom: 10.063rem;
+    padding-bottom: 8.38541vw;
 }
 
 .menu-1 {
-    padding-right: 15px!important;
+    padding-right: 0.7812vw!important;
 }
 
 .card {
@@ -978,14 +967,20 @@ blue {
         width: auto;
     }
     .logo {
-        max-width: 32px;
         width: auto;
-        height: auto;
+        height: 6.43vw;
     }
     .container {
         overflow-x: hidden;
         max-width: 100%;
         width: auto;
+        padding-left: 6.37%;
+        padding-right: 6.37%;
+    }
+    .navbar>.container-fluid {
+        margin-top: 1vw;
+        overflow-x: hidden;
+        max-width: 100%;
         padding-left: 6.37%;
         padding-right: 6.37%;
     }
@@ -1042,27 +1037,27 @@ blue {
         padding-bottom: 3.71%;
     }
     .item-menu-footer-2 {
-        font-size: 13px;
-        line-height: 19px;
+        font-size: 3.46666vw;
+        line-height: 5.33333vw;
     }
     .f-cont-1 {
-        font-size: 0.5rem;
-        line-height: 0.75rem;
+        font-size: 2.13333vw;
+        line-height: 2.4vw;
         margin-bottom: 5.144%;
     }
     .f-cont-2 {
-        font-size: 1.375rem;
-        line-height: 1.563rem;
+        font-size: 5.86666vw;
+        line-height: 6.66666vw;
         margin-bottom: 21.6%;
     }
     .f-cont-3 {
-        font-size: 0.5rem;
-        line-height: 0.563rem;
+        font-size: 2.13333vw;
+        line-height: 2.4vw;
         margin-bottom: 2.4%;
     }
     .f-cont-4 {
-        font-size: 0.625rem;
-        line-height: 0.938rem;
+        font-size: 2.66666vw;
+        line-height: 4vw;
         margin-bottom: 10.85%;
     }
     .link-menu-m {
@@ -1072,8 +1067,8 @@ blue {
         width: 100%;
     }
     .footer-animation {
-        font-size: 0.5rem;
-        line-height: 0.625rem;
+        font-size: 2.13333vw;
+        line-height: 2.66666vw;
     }
     .footer-animation .col-auto {
         padding-left: 0%;
@@ -1087,17 +1082,17 @@ blue {
         margin-bottom: 9.1%;
     }
     .cont-1 {
-        font-size: 0.5rem;
-        line-height: 0.75rem;
+        font-size: 2.13333vw;
+        line-height: 3.2vw;
         margin-bottom: 5.144%;
     }
     .cont-2 {
-        font-size: 1.938rem;
-        line-height: 2.188rem;
+        font-size: 7.26666vw;
+        line-height: 9.33333vw;
     }
     .list-group-item {
-        font-size: 0.563rem;
-        line-height: 0.813rem;
+        font-size: 2.4vw;
+        line-height: 3.46666vw;
         margin-top: 1.875rem;
     }
     .enumerate {
@@ -1105,14 +1100,14 @@ blue {
         height: auto;
     }
     .numbers {
-        font-size: 3.563rem;
-        line-height: 4.25rem;
-        margin-top: 2.063rem;
-        margin-bottom: 1.688rem;
+        font-size: 15.2vw;
+        line-height: 18.13333vw;
+        margin-top: 8.53333vw;
+        margin-bottom: 6.21866vw;
     }
     .numbers span {
-        font-size: 0.563rem;
-        line-height: 0.813rem;
+        font-size: 2.4vw;
+        line-height: 3.46666vw;
         margin-bottom: 1.688rem;
     }
     .item-do {
@@ -1144,13 +1139,13 @@ blue {
         padding-left: 2.5rem;
     }
     .w-w-3 {
-        font-size: 0.563rem;
-        line-height: 0.813rem;
+        font-size: 2.4vw;
+        line-height: 3.73333vw;
         margin-bottom: 2.688rem;
     }
     .nav-pills .nav-link {
-        font-size: 0.5rem;
-        line-height: 0.563rem;
+        font-size: 2.13333vw;
+        line-height: 2.66666vw;
         margin-right: 0.375rem;
         margin-bottom: 2.188rem;
         padding: 0.313rem;
@@ -1175,17 +1170,17 @@ blue {
         margin-top: 0.688rem;
     }
     .blue-bt {
-        font-size: 8px;
-        line-height: 9px;
+        font-size: 2.13333vw;
+        line-height: 2.4vw;
         padding: .25rem .5rem;
     }
     .foot-card-inf {
-        font-size: 0.5rem;
-        line-height: 0.75rem;
+        font-size: 2.13vw;
+        line-height: 3.2vw;
     }
     blue {
-        font-size: 0.875rem;
-        line-height: 1.063rem;
+        font-size: 3.73vw;
+        line-height: 4.53vw;
     }
     .txt-animation {
         overflow: hidden;
@@ -1294,16 +1289,18 @@ blue {
     .contac-1 {
         margin-top: 2.75rem;
         margin-bottom: 2.938rem;
+        font-size: 8.26666vw;
+        line-height: 9.33333vw;
     }
     .contac-2 {
-        font-size: 0.938rem;
-        line-height: 1.313rem;
+        font-size: 4vw;
+        line-height: 5.6vw;
         margin-bottom: 0.813rem;
     }
     .contac-3 {
         margin-top: 0.375rem;
-        font-size: 0.563rem;
-        line-height: 0.875rem;
+        font-size: 2.4vw;
+        line-height: 3.73333vw;
     }
     .contac-3,
     .img-contac {
@@ -1322,8 +1319,8 @@ blue {
         margin-left: 50px;
     }
     .txt-sal {
-        font-size: 0.563rem;
-        line-height: 0.813rem;
+        font-size: 2.4vw;
+        line-height: 3.73333vw;
     }
     .blue-bt-s {
         margin-top: 2.6rem;
@@ -1352,8 +1349,8 @@ blue {
         margin-top: 0.5rem;
     }
     .links-space {
-        font-size: 0.563rem;
-        line-height: 0.813rem;
+        font-size: 2.4vw;
+        line-height: 3.73vw;
         padding-bottom: 4px;
     }
     .space-item {
@@ -1392,7 +1389,7 @@ blue {
         padding-left: 1.5rem;
     }
     .copy {
-        height: 10px;
+        height: 2.66666vw;
         width: auto;
     }
     .foot-card-space {
@@ -1478,8 +1475,8 @@ blue {
         width: 100%;
     }
     .menu {
-        font-size: 0.625rem;
-        line-height: 0.7815rem;
+        font-size: 2.13333vw;
+        line-height: 2.66666vw;
     }
     .menu-item-active {
         border-bottom-width: 0.063rem;
@@ -1490,7 +1487,7 @@ blue {
     }
 }
 
-@media (min-width: 577px) and (max-width:767.5px) {
+@media (min-width: 576px) and (max-width:767.5px) {
     .card-img-ind {
         height: 35.256vw;
         width: 51.2167vw;
@@ -1505,11 +1502,6 @@ blue {
         width: 241px;
         margin: 0%
     }
-    .logo {
-        max-width: 3.5rem;
-        width: auto;
-        height: auto;
-    }
     header {
         padding-top: 1.5rem;
     }
@@ -1519,18 +1511,37 @@ blue {
     .w-w-3 {
         font-style: normal;
         font-weight: normal;
-        font-size: 1.51vw;
+        font-size: 1.8vw;
         line-height: 2.24vw;
         margin-bottom: 5.625rem;
         font-family: "AvantGardeGothicC";
+    }
+    .logo {
+        width: auto;
+        height: 3.43vw;
+    }
+    .menu>.row>.col-auto {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+    .f-cont-3 {
+        font-size: 1.6vw;
+        line-height: 2.4vw;
+    }
+    .f-cont-4 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .numbers {
+        font-size: 12.2vw;
+        line-height: 16.13333vw;
     }
 }
 
 @media (min-width: 767.6px) and (max-width: 1020px) {
     .logo {
-        max-width: 132.54px;
         width: auto;
-        height: auto;
+        height: 3.38vw;
     }
     .container {
         max-width: 100%;
@@ -1542,8 +1553,8 @@ blue {
         padding-top: 3.56%;
     }
     .menu {
-        font-size: 0.688rem;
-        line-height: 0.813rem;
+        font-size: 1.31894vw;
+        line-height: 1.55875vw;
     }
     .b-1 {
         border: 0.80px solid #005BDE;
@@ -1558,18 +1569,18 @@ blue {
         padding-bottom: 4.92%;
     }
     .f-cont-1 {
-        font-size: 0.688rem;
-        line-height: 1.063rem;
+        font-size: 1.31421vw;
+        line-height: 1.91158vw;
         margin-bottom: 3.20%;
     }
     .f-cont-2 {
-        font-size: 2.625rem;
-        line-height: 3rem;
+        font-size: 5.01792vw;
+        line-height: 5.73476vw;
         margin-bottom: 3.20%;
     }
     .item-menu-footer-2 {
-        font-size: 1.063rem;
-        line-height: 1.594rem;
+        font-size: 2.03106vw;
+        line-height: 3.10633vw;
         margin-top: 3.25%;
     }
     .copy {
@@ -1586,20 +1597,20 @@ blue {
         line-height: 1.313rem;
     }
     .footer-animation {
-        font-size: 0.688rem;
-        line-height: 0.813rem;
+        font-size: 1.31894vw;
+        line-height: 1.55875vw;
     }
     .animation {
         margin-bottom: 7.19%;
     }
     .cont-1 {
-        font-size: 0.688rem;
-        line-height: 1.063rem;
+        font-size: 1.31421vw;
+        line-height: 1.91158vw;
         margin-bottom: 3.20%;
     }
     .list-group-item {
-        font-size: 0.75rem;
-        line-height: 1.125rem;
+        font-size: 1.43369vw;
+        line-height: 2.15053vw;
         margin-top: 2.25rem;
     }
     .enumerate {
@@ -1607,22 +1618,22 @@ blue {
         height: auto;
     }
     .numbers {
-        font-size: 4.563rem;
-        line-height: 3.625rem;
-        margin-top: 3.563rem;
-        margin-bottom: 3.125rem;
+        font-size: 8.75299vw;
+        line-height: 10.79136vw;
+        margin-top: 6.83453vw;
+        margin-bottom: 4.55635vw;
     }
     .numbers span {
-        font-size: 0.688rem;
-        line-height: 1rem;
+        font-size: 1.31894vw;
+        line-height: 1.91846vw;
     }
     .item-do {
         font-size: 1.438rem;
         padding-right: .5rem;
     }
     .bt-blue-1 {
-        font-size: 32px;
-        line-height: 37px;
+        font-size: 3.82317vw;
+        line-height: 4.42054vw;
         border: 1.22958px solid #005BDE;
         box-sizing: border-box;
         border-radius: 41.6624px;
@@ -1644,8 +1655,8 @@ blue {
         margin-bottom: 2.813rem;
     }
     .nav-pills .nav-link {
-        font-size: 0.688rem;
-        line-height: 0.813rem;
+        font-size: 1.31421vw;
+        line-height: 1.55316vw;
         margin-right: 0.688rem;
         margin-bottom: 2.688rem;
         padding: 0.375rem;
@@ -1675,14 +1686,17 @@ blue {
         margin-top: 1rem;
     }
     .blue-bt {
-        padding: .45rem .75rem;
+        padding: .4rem .75rem;
+        font-size: 1.31421vw;
+        line-height: 1.55316vw;
     }
     .foot-card-inf {
-        line-height: 1.125rem;
+        font-size: 1.43369vw;
+        line-height: 2.15053vw;
     }
     blue {
-        font-size: 1.25rem;
-        line-height: 1.5rem;
+        font-size: 2.38948vw;
+        line-height: 2.86738vw;
     }
     .txt-animation {
         height: 90px;
@@ -1791,16 +1805,18 @@ blue {
     .contac-1 {
         margin-top: 4.625rem;
         margin-bottom: 4.063rem;
+        font-size: 5.01792vw;
+        line-height: 5.73476vw;
     }
     .contac-2 {
-        font-size: 1.438rem;
-        line-height: 2rem;
+        font-size: 2.74790vw;
+        line-height: 3.82317vw;
         margin-bottom: 1.25rem;
     }
     .contac-3 {
         margin-top: 0.688rem;
-        font-size: 0.875rem;
-        line-height: 1.313rem;
+        font-size: 1.67264vw;
+        line-height: 2.50896vw
     }
     .contac-3,
     .img-contac {
@@ -1962,11 +1978,6 @@ blue {
     header {
         padding-top: 4.06%;
     }
-    .logo {
-        max-width: 130px;
-        width: auto;
-        height: auto;
-    }
     .container {
         max-width: 100%;
         width: auto;
@@ -1974,7 +1985,7 @@ blue {
         padding-right: 6.61%;
     }
     .b-1 {
-        padding: 7px 15px;
+        padding: 2px 15px;
     }
     .arrow {
         width: 27px;
@@ -2002,17 +2013,8 @@ blue {
         font-size: 1rem;
         line-height: 1.5rem;
     }
-    .footer-animation {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
     .animation {
         margin-bottom: 6.25%;
-    }
-    .cont-1 {
-        font-size: 0.938rem;
-        line-height: 0.813rem;
-        margin-bottom: 2.0%;
     }
     .cont-2 {
         font-size: 4.43vw;
@@ -2026,16 +2028,6 @@ blue {
         width: 13px;
         height: auto;
     }
-    .numbers {
-        font-size: 4.563rem;
-        line-height: 5.625rem;
-        margin-top: 3.563rem;
-        margin-bottom: 3.125rem;
-    }
-    .numbers span {
-        font-size: 1rem;
-        line-height: 2.25px;
-    }
     .item-do {
         font-size: 1.438rem;
     }
@@ -2048,7 +2040,6 @@ blue {
         padding: 0rem 1rem 0.375rem 0.5rem;
     }
     .tabs-con {
-        margin-top: 5.063rem;
         margin-right: 0%;
         padding-right: 0%;
     }
@@ -2210,24 +2201,6 @@ blue {
             background-position: -435%;
         }
     }
-    .contac-1 {
-        margin-top: 4.625rem;
-        margin-bottom: 4.063rem;
-    }
-    .contac-2 {
-        font-size: 1.438rem;
-        line-height: 2rem;
-        margin-bottom: 1.25rem;
-    }
-    .contac-3 {
-        margin-top: 0.688rem;
-        font-size: 0.875rem;
-        line-height: 1.313rem;
-    }
-    .contac-3,
-    .img-contac {
-        margin-bottom: 4.25rem;
-    }
     .head-room {
         height: 74.625rem;
         margin-bottom: 2.938rem;
@@ -2238,13 +2211,6 @@ blue {
         border-bottom-width: 0.25rem;
         height: 107px;
     }
-    .txt-sal {
-        font-size: 1.25rem;
-        line-height: 1.813rem;
-    }
-    .img-sal {
-        margin-top: 3.438rem;
-    }
     .sal-cont-1 {
         font-size: 0.875rem;
         line-height: 1.25rem;
@@ -2254,17 +2220,6 @@ blue {
     .sal-cont-2 {
         font-size: 1.813rem;
         line-height: 2.563rem;
-    }
-    .union {
-        width: 13px;
-        height: auto;
-    }
-    .space-1 {
-        margin-top: 4.25rem;
-    }
-    .links-space {
-        font-size: 1.513rem;
-        line-height: 1.988rem;
     }
     .card-space-1 {
         width: 34.438rem;
@@ -2314,18 +2269,10 @@ blue {
         width: 30.5rem;
         height: auto;
     }
-    .menu>.row>.col-auto {
-        padding-left: 17px;
-        padding-right: 17px;
-    }
     .item-sal {
         font-size: 2rem;
         padding-top: 4.188rem;
         padding-right: 5.5rem;
-    }
-    .img-1 {
-        /*width: 324.39px;*/
-        padding-right: 3rem;
     }
     .num-1,
     .num-2,
@@ -2338,13 +2285,10 @@ blue {
     .card-center {
         height: 6.5rem;
     }
-    .space-title {
-        margin-bottom: .8rem;
-    }
 }
 
 @media (min-width: 1439px) and (max-width: 1919px) {
-    .contac-2 {
+    /*.contac-2 {
         font-size: 2.438rem;
         line-height: 3rem;
         margin-bottom: 2.25rem;
@@ -2353,13 +2297,9 @@ blue {
         margin-top: 3.688rem;
         font-size: 1.3rem;
         line-height: 2rem;
-    }
+    }*/
     .contac-4 {
         margin-bottom: 10%;
-        font-size: 1rem;
-    }
-    .contac-1 {
-        margin-bottom: 7rem;
     }
     .card-space-2 {
         margin-top: 3.813rem;
@@ -2408,9 +2348,6 @@ blue {
 }
 
 @media (min-width: 1366px) and (max-width: 1430px) {
-    .card-index {
-        padding-right: 2.813rem;
-    }
     /*.nav-pills .nav-link {
         padding-top: 10px;
     }
@@ -2474,7 +2411,7 @@ blue {
         height: auto;
     }
     .card-space-3 {
-        margin-top: -6.813rem;
+        margin-top: -9.51083vw;
         width: 63.375rem;
         height: auto;
     }
@@ -2546,10 +2483,6 @@ blue {
     .item-animation-5 {
         top: 646px;
     }
-    .contac-2 {
-        font-size: 4.125rem;
-        line-height: 5.375rem;
-    }
 }
 
 @media (min-width: 2560px) {
@@ -2562,20 +2495,4 @@ blue {
         font-size: 1.25vw;
         line-height: 1.87vw;
     }
-}
-
-line-height: 1.87vw;
-
-}
-
-}
-line-height: 1.87vw;
-
-}
-
-}
-line-height: 1.87vw;
-
-}
-
 }
