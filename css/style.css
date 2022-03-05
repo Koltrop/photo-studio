@@ -1002,13 +1002,15 @@ blue {
     }
     .b-1 {
         border: 0.80px solid #005BDE;
-        padding: 1px 7px;
-        font-size: 0.5rem;
+        padding: 1.25vw 2.1875vw;
+        font-size: 2.13333vw;
+        line-height: 2.66666vw;
         border-radius: 22px;
+        text-transform: uppercase;
     }
     .arrow {
-        width: 20px;
-        height: auto;
+        width: auto;
+        height: 3.2vw;
     }
     .movil-1 {
         margin-left: 33%;
@@ -1418,7 +1420,7 @@ blue {
         font-size: 0%;
     }
     .txt-bt {
-        padding-right: 0rem;
+        padding-right: 1.5vw;
     }
     .sup-1 {
         padding-left: .1rem;
@@ -1498,6 +1500,11 @@ blue {
         padding-left: 0;
         padding-right: 1.875rem;
     }
+    .row.cont-1 {
+        height: 4.6875vw;
+        align-items: center;
+        align-content: center;
+    }
 }
 
 @media (min-width: 576px) and (max-width:767.5px) {
@@ -1548,6 +1555,21 @@ blue {
     .numbers {
         font-size: 12.2vw;
         line-height: 16.13333vw;
+    }
+    .b-1 {
+        border: 0.8px solid #005BDE;
+        padding: 0.5vw 1.5vw;
+        font-size: 1.5vw;
+        line-height: 2.66666vw;
+        border-radius: 22px;
+        text-transform: uppercase;
+    }
+    .txt-bt {
+        padding-right: 0.5vw;
+    }
+    .menu {
+        font-size: 1.5vw;
+        line-height: 2.66666vw;
     }
 }
 
