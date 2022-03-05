@@ -1115,17 +1115,20 @@ blue {
         margin-top: 8.53333vw;
         margin-bottom: 5.21866vw;
     }
-    /*.numbers-2>.col-auto {
+    .numbers-2>.col-auto {
         padding-right: 13.33333vw;
     }
     .numbers-2>.col-auto>.row {
         padding-left: calc(var(--bs-gutter-x) * .5);
-    }*/
+    }
     .num-mv {
         padding-right: 0%;
     }
     .num-mv>.col-auto {
         padding-right: 0%;
+    }
+    .sal-item-5 {
+        padding-left: 14.0625vw;
     }
     .numbers span {
         font-size: 2.4vw;
