@@ -105,7 +105,7 @@
                                     <li class="nav-item">
                                         <a href="space.html">
                                             <div class="position-relative">
-                                                пространства <span class="position-absolute top-0 translate-middle badge-1 txt-14-2">14</span>
+                                                пространства <span class="position-absolute top-0 translate-middle badge-1 txt-14">14</span>
                                             </div>
                                         </a>
                                     </li>
@@ -164,7 +164,7 @@
                     <div class="col-auto col-sm-3 col-md-3 col-lg-3">
                         En
                     </div>
-                    <div class="col-auto col-sm-6 col-md-6 col-lg-6" style="text-align: center;">
+                    <div class="col-auto col-sm-6 col-md-6 col-lg-6 station-movil" style="text-align: center;">
                         station photostudio
                     </div>
                     <div class="col-auto col-sm-3 col-md-3 col-lg-3">
@@ -222,55 +222,128 @@
                     </ul>
                 </div>
             </div>
-            <div class="row justify-content-between numbers">
-                <div class="col-auto">
-                    <div class="justify-content-center">
-                        8
+            <div class=" d-none d-sm-block">
+                <div class="row justify-content-between numbers">
+                    <div class="col-auto">
+                        <div class="justify-content-center">
+                            8
+                        </div>
+                        <div class="row">
+                            <span>залов</span>
+                        </div>
+
                     </div>
-                    <div class="row">
-                        <span>залов</span>
+                    <div class="col-auto">
+                        <div class="justify-content-center">
+                            4
+                        </div>
+                        <div class="row">
+                            <span>гримерных</span>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class=" justify-content-center">
+                            2
+                        </div>
+                        <div class="row">
+                            <span>переговорных</span>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="row justify-content-center">
+                            <div class="col-auto align-self-center item-do">
+                                до
+                            </div>
+                            <div class="col-auto" style="padding-left: 0px;">
+                                22
+                            </div>
+                        </div>
+                        <div class="row">
+                            <span>кВт в каждом зале</span>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="justify-content-center">
+                            1236
+                        </div>
+                        <div class="row">
+                            <span>кв. м общая площадь</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-block d-sm-none">
+                <div class="row justify-content-between numbers">
+                    <div class="row justify-content-between num-mv">
+
+                        <div class="col-auto">
+                            <div class="justify-content-center">
+                                8
+                            </div>
+                            <div class="row">
+                                <span>залов</span>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="col-auto">
+                            <div class=" justify-content-center">
+                                2
+                            </div>
+                            <div class="row">
+                                <span>переговорных</span>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <div class="row justify-content-center">
+                                <div class="col-auto align-self-center item-do">
+                                    до
+                                </div>
+                                <div class="col-auto" style="padding-left: 0px;">
+                                    22
+                                </div>
+                            </div>
+                            <div class="row">
+                                <span>кВт в каждом зале</span>
+                            </div>
+                        </div>
+
+
+
+
                     </div>
 
-                </div>
-                <div class="col-auto">
-                    <div class="justify-content-center">
-                        4
-                    </div>
                     <div class="row">
-                        <span>гримерных</span>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <div class=" justify-content-center">
-                        2
-                    </div>
-                    <div class="row">
-                        <span>переговорных</span>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <div class="row justify-content-center">
-                        <div class="col-auto align-self-center item-do">
-                            до
+                        <div class="col-auto movil-4-number">
+                            <div class="justify-content-center">
+                                4
+                            </div>
+                            <div class="row">
+                                <span>гримерных</span>
+                            </div>
                         </div>
-                        <div class="col-auto" style="padding-left: 0px;">
-                            22
+
+                        <div class="col-auto">
+                            <div class="justify-content-center">
+                                1236
+                            </div>
+                            <div class="row">
+                                <span>кв. м общая площадь</span>
+                            </div>
+
                         </div>
-                    </div>
-                    <div class="row">
-                        <span>кВт в каждом зале</span>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <div class="justify-content-center">
-                        1236
-                    </div>
-                    <div class="row">
-                        <span>кв. м общая площадь</span>
                     </div>
 
                 </div>
             </div>
+
+
+
+
             <div class="row">
                 <div class="col-auto">
                     <div class="col-auto bt-blue-1">
@@ -845,6 +918,13 @@
 
     <script src="js/bootstrap.min.js"></script>
     <script src="js/animation.js"></script>
+
+    <script type="module">
+
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js"; import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-analytics.js"; const firebaseConfig = { apiKey: "AIzaSyBtWjrKBKFbzFeu9PZ6FMeDutySa84fqWY",
+        authDomain: "station-none.firebaseapp.com", projectId: "station-none", storageBucket: "station-none.appspot.com", messagingSenderId: "281408749444", appId: "1:281408749444:web:8e02f1a16d75778c42a7d1", measurementId: "G-DG0X0T3QN3" }; const app
+        = initializeApp(firebaseConfig); const analytics = getAnalytics(app);
+    </script>
 </body>
 
 </html>

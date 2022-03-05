@@ -679,7 +679,7 @@ blue {
 }
 
 .foot-card-space {
-    margin-top: 1.5rem;
+    margin-top: 0.74166vw;
 }
 
 .space-tabs>.row {
@@ -990,15 +990,14 @@ blue {
         margin-top: 1vw;
         overflow-x: hidden;
         max-width: 100%;
-        padding-left: 6.37%;
-        padding-right: 6.37%;
+        /*padding-left: 6.37%;*/
     }
     header {
         padding-top: 0%;
     }
     .offcanvas-body.menu {
-        font-size: 1.9rem;
-        line-height: 2.813rem;
+        font-size: 10.1333vw;
+        line-height: 12vw;
     }
     .b-1 {
         border: 0.80px solid #005BDE;
@@ -1016,7 +1015,7 @@ blue {
         margin-left: 33%;
     }
     .offcanvas-body {
-        margin-top: 52vw;
+        margin-top: 35vw;
     }
     .navbar-light .navbar-toggler {
         color: rgba(0, 0, 0, 0);
@@ -1098,7 +1097,7 @@ blue {
         margin-bottom: 5.144%;
     }
     .cont-2 {
-        font-size: 7.26666vw;
+        font-size: 8vw;
         line-height: 9.33333vw;
     }
     .list-group-item {
@@ -1114,7 +1113,19 @@ blue {
         font-size: 15.2vw;
         line-height: 18.13333vw;
         margin-top: 8.53333vw;
-        margin-bottom: 6.21866vw;
+        margin-bottom: 5.21866vw;
+    }
+    /*.numbers-2>.col-auto {
+        padding-right: 13.33333vw;
+    }
+    .numbers-2>.col-auto>.row {
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }*/
+    .num-mv {
+        padding-right: 0%;
+    }
+    .num-mv>.col-auto {
+        padding-right: 0%;
     }
     .numbers span {
         font-size: 2.4vw;
@@ -1134,7 +1145,7 @@ blue {
         padding: 0px 14px 3px 9px;
     }
     .tabs-con {
-        margin-top: 4.313rem;
+        margin-top: 16.13333vw;
         margin-right: 0%;
         padding-right: 0%;
     }
@@ -1145,14 +1156,18 @@ blue {
         margin-bottom: 0.625rem;
     }
     .w-w-2 {
-        font-size: 0.875rem;
-        line-height: 1.063rem;
+        font-size: 4.53333vw;
+        line-height: 5.33333vw;
         padding-left: 2.5rem;
     }
     .w-w-3 {
         font-size: 2.4vw;
         line-height: 3.73333vw;
         margin-bottom: 2.688rem;
+    }
+    .space-title {
+        font-size: 10.66666vw;
+        line-height: 12.26666vw;
     }
     .nav-pills .nav-link {
         font-size: 2.13333vw;
@@ -1161,6 +1176,7 @@ blue {
         margin-bottom: 2.188rem;
         padding: 0.313rem;
         border-radius: 3.30509vw;
+        border: 0.001vw solid #000000;
     }
     .nav-pills .nav-link.active {
         border-color: #0d6efd;
@@ -1188,6 +1204,7 @@ blue {
         font-size: 2.13333vw;
         line-height: 2.4vw;
         padding: .15rem .5rem;
+        border: 0.001vw solid #005BDE;
     }
     .foot-card-inf {
         font-size: 2.13vw;
@@ -1338,10 +1355,10 @@ blue {
         line-height: 3.73333vw;
     }
     .blue-bt-s {
-        margin-top: 2.6rem;
+        margin-top: 3.46666vw;
         border: 0.08rem solid #005BDE;
         border-radius: 2.762rem;
-        padding: 0.25rem 0.5rem;
+        padding: 0.75vw 2.5vw;
     }
     .img-sal {
         margin-top: 2.938rem;
@@ -1420,7 +1437,7 @@ blue {
         font-size: 0%;
     }
     .txt-bt {
-        padding-right: 1.5vw;
+        padding-right: 1vw;
     }
     .sup-1 {
         padding-left: .1rem;
@@ -1504,6 +1521,16 @@ blue {
         height: 4.6875vw;
         align-items: center;
         align-content: center;
+    }
+    .movil-4-number {
+        padding-right: 16.25vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .station-movil {
+        position: absolute;
+        left: 35%;
     }
 }
 
@@ -2011,7 +2038,7 @@ blue {
 
 @media (min-width: 1021px) and (max-width: 1919px) {
     header {
-        padding-top: 4.06%;
+        padding-top: 3.3625vw;
     }
     .container {
         max-width: 100%;
@@ -2020,7 +2047,10 @@ blue {
         padding-right: 6.61%;
     }
     .b-1 {
-        padding: 2px 15px;
+        padding-top: 0.36875vw;
+        padding-right: 0.6vw;
+        padding-bottom: 0.36875vw;
+        padding-left: 0.9375vw;
     }
     .arrow {
         width: 27px;
@@ -2030,23 +2060,24 @@ blue {
         margin-bottom: 2.0%;
     }
     .f-cont-2 {
-        font-size: 2.625rem;
-        line-height: 3rem;
-        margin-bottom: 3.20%;
+        font-size: 4.42708vw;
+        line-height: 5.05208vw;
+        margin-bottom: 2.76041vw;
     }
     .item-menu-footer-2 {
-        font-size: 1.063rem;
-        line-height: 1.594rem;
-        margin-top: 3.25%;
+        font-size: 1.82291vw;
+        line-height: 2.70833vw;
+        text-transform: uppercase;
+        margin-top: 2.76041vw;
     }
     .f-cont-3 {
-        font-size: 0.8rem;
-        line-height: 1.438rem;
-        margin-bottom: 10px;
+        font-size: 1.04166vw;
+        line-height: 1.19791vw;
+        margin-bottom: 1.25vw;
     }
     .f-cont-4 {
-        font-size: 1rem;
-        line-height: 1.5rem;
+        font-size: 1.51041vw;
+        line-height: 2.29166vw;
     }
     .animation {
         margin-bottom: 6.25%;
@@ -2319,6 +2350,14 @@ blue {
     }
     .card-center {
         height: 6.5rem;
+    }
+    .menu {
+        font-size: 1vw;
+        line-height: 1.55875vw;
+    }
+    .menu>.row>.col-auto {
+        padding-left: 1.8625vw;
+        padding-right: 1.8625vw;
     }
 }
 
