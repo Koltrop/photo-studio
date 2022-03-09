@@ -250,7 +250,7 @@ header .txt-14:hover {
     text-transform: uppercase;
     font-size: 1.04166vw;
     line-height: 1.5625vw;
-    margin-bottom: 2.91666vw;
+    margin-bottom: 2.3vw;
     font-family: 'AvantGardeGothicC';
 }
 
@@ -337,7 +337,7 @@ header .txt-14:hover {
     font-weight: bold;
     font-size: 2.34vw;
     line-height: 2.91vw;
-    padding-left: 6.5rem;
+    padding-left: 7.5rem;
     font-family: 'AvantGardeGothicCTT';
 }
 
@@ -367,10 +367,11 @@ header .txt-14:hover {
     justify-items: center;
 }
 
-.nav-link.active {
+
+/*.nav-link.active {
     font-weight: bold;
     font-family: 'AvantGardeGothicCTT';
-}
+}*/
 
 .name-item {
     font-style: normal;
@@ -618,7 +619,7 @@ blue {
 .blue-bt-s {
     margin-top: 2.91666vw;
     color: #005BDE;
-    border: 0.08rem solid #005BDE;
+    border: 0.1rem solid #005BDE;
     box-sizing: border-box;
     border-radius: 2.30141vw;
     text-transform: uppercase;
@@ -881,8 +882,7 @@ blue {
     background-image: url(img/110_\ 3.png);
     background-size: cover;
     height: 24.48vw;
-    /*margin-right: calc(var(--bs-gutter-x) * .5);
-    margin-left: calc(var(--bs-gutter-x) * .5);*/
+    margin-left: 0px;
 }
 
 .size-item-space {
@@ -906,6 +906,7 @@ blue {
     height: 31.97vw;
     /*margin-right: calc(var(--bs-gutter-x) * .5);
     margin-left: calc(var(--bs-gutter-x) * .5);*/
+    margin-left: 0px;
 }
 
 .row-item-4 {
@@ -927,6 +928,7 @@ blue {
     height: 49.375vw;
     /* margin-right: calc(var(--bs-gutter-x) * .5);
     margin-left: calc(var(--bs-gutter-x) * .5);*/
+    margin-left: 0px;
 }
 
 .row-item-6 {
@@ -948,6 +950,7 @@ blue {
     height: 28.016vw;
     /*margin-right: calc(var(--bs-gutter-x) * .5);
     margin-left: calc(var(--bs-gutter-x) * .5);*/
+    margin-left: 0px;
 }
 
 .row-item-8 {
@@ -965,6 +968,12 @@ blue {
 .card-img-ind {
     height: 35.256vw;
     width: 51.2167vw;
+}
+
+.station-movil {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
 }
 
 @media (max-width: 767.5px) {
@@ -990,7 +999,8 @@ blue {
         margin-top: 1vw;
         overflow-x: hidden;
         max-width: 100%;
-        /*padding-left: 6.37%;*/
+        padding-left: 6.37%;
+        padding-right: 6.37%;
     }
     header {
         padding-top: 0%;
@@ -1528,12 +1538,28 @@ blue {
     .movil-4-number {
         padding-right: 16.25vw;
     }
+    .navbar-toggler {
+        padding-right: calc(var(--bs-gutter-x) * .25);
+        margin-left: 2vw;
+    }
 }
 
 @media (max-width: 576px) {
     .station-movil {
         position: absolute;
-        left: 35%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+}
+
+@media (min-width: 499px) and (max-width:767.5px) {
+    .f-cont-2 {
+        font-size: 5.7vw;
+    }
+    .w-w-2 {
+        font-size: 3.53333vw;
+        line-height: 5.33333vw;
+        padding-left: 3rem;
     }
 }
 
@@ -1600,6 +1626,9 @@ blue {
     .menu {
         font-size: 1.5vw;
         line-height: 2.66666vw;
+    }
+    .w-w-2 {
+        padding-left: 3.5rem;
     }
 }
 
@@ -1714,7 +1743,7 @@ blue {
         margin-bottom: 1.375rem;
     }
     .w-w-2 {
-        padding-left: 2.5rem;
+        padding-left: 3rem;
     }
     .w-w-3 {
         margin-bottom: 2.813rem;
@@ -2041,7 +2070,7 @@ blue {
 
 @media (min-width: 1021px) and (max-width: 1919px) {
     header {
-        padding-top: 3.3625vw;
+        padding-top: 2.8vw;
     }
     .container {
         max-width: 100%;
@@ -2050,7 +2079,7 @@ blue {
         padding-right: 6.61%;
     }
     .b-1 {
-        padding-top: 0.36875vw;
+        padding-top: 0.36vw;
         padding-right: 0.6vw;
         padding-bottom: 0.36875vw;
         padding-left: 0.9375vw;
@@ -2123,7 +2152,7 @@ blue {
     .w-w-2 {
         font-size: 2.34vw;
         line-height: 2.91vw;
-        padding-left: 4.75rem;
+        padding-left: 5.25rem;
     }
     .w-w-3 {
         font-size: 1.51vw;
