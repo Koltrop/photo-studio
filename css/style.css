@@ -38,6 +38,8 @@
 
 * {
     -webkit-font-smoothing: antialiased;
+    animation: all;
+    animation-duration: 0.2s;
 }
 
 body {
@@ -360,7 +362,7 @@ header .txt-14:hover {
     border: 1px solid #000000;
     border-radius: 1.796875vw;
     margin-right: 1.25rem;
-    margin-bottom: 5.563rem;
+    margin-bottom: 4.63541vw;
     font-family: 'AvantGardeGothicC';
     text-align: center;
     justify-content: center;
@@ -977,10 +979,10 @@ blue {
 }
 
 @media (max-width: 767.5px) {
-    .card-img-ind {
+    /*.card-img-ind {
         height: 46.656vw;
         width: 69.2167vw;
-    }
+    }*/
     .row-item {
         width: auto;
     }
@@ -1104,7 +1106,7 @@ blue {
     .cont-1 {
         font-size: 2.13333vw;
         line-height: 3.2vw;
-        margin-bottom: 5.144%;
+        /*margin-bottom: 5.144%;*/
     }
     .cont-2 {
         font-size: 8vw;
@@ -1150,15 +1152,15 @@ blue {
         padding-right: .25rem;
     }
     .bt-blue-1 {
-        font-size: 21px;
-        line-height: 25px;
+        font-size: 5.73333vw;
+        line-height: 6.66666vw;
         border: 0.794312px solid #005BDE;
         box-sizing: border-box;
-        border-radius: 31.702px;
+        border-radius: 8.45386vw;
         padding: 0px 14px 3px 9px;
     }
     .tabs-con {
-        margin-top: 16.13333vw;
+        margin-top: 13.13333vw;
         margin-right: 0%;
         padding-right: 0%;
     }
@@ -1564,10 +1566,10 @@ blue {
 }
 
 @media (min-width: 576px) and (max-width:767.5px) {
-    .card-img-ind {
+    /*.card-img-ind {
         height: 35.256vw;
         width: 51.2167vw;
-    }
+    }*/
     .f-cont-2 {
         margin-bottom: 0%;
     }
@@ -1703,7 +1705,7 @@ blue {
     .cont-1 {
         font-size: 1.31421vw;
         line-height: 1.91158vw;
-        margin-bottom: 3.20%;
+        /*margin-bottom: 3.20%;*/
     }
     .list-group-item {
         font-size: 1.43369vw;
@@ -2132,14 +2134,14 @@ blue {
     .item-do {
         font-size: 1.438rem;
     }
-    .bt-blue-1 {
+    /*.bt-blue-1 {
         font-size: 32px;
         line-height: 37px;
         border: 1.22958px solid #005BDE;
         box-sizing: border-box;
         border-radius: 43.6624px;
         padding: 0rem 1rem 0.375rem 0.5rem;
-    }
+    }*/
     .tabs-con {
         margin-right: 0%;
         padding-right: 0%;
