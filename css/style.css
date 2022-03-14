@@ -978,6 +978,10 @@ blue {
     transform: translate(-50%, 0%);
 }
 
+.navbar-nav.justify-content-end.flex-grow-1.pe-3>.nav-item {
+    margin-bottom: 5vw;
+}
+
 @media (max-width: 767.5px) {
     /*.card-img-ind {
         height: 46.656vw;
@@ -1002,13 +1006,13 @@ blue {
         overflow-x: hidden;
         max-width: 100%;
         padding-left: 6.37%;
-        padding-right: 6.37%;
+        padding-right: var(--bs-gutter-x, .75rem);
     }
     header {
         padding-top: 0%;
     }
     .offcanvas-body.menu {
-        font-size: 10.1333vw;
+        font-size: 9.6vw;
         line-height: 12vw;
     }
     .b-1 {
@@ -1109,7 +1113,7 @@ blue {
         /*margin-bottom: 5.144%;*/
     }
     .cont-2 {
-        font-size: 8vw;
+        font-size: 7.5vw;
         line-height: 9.33333vw;
     }
     .list-group-item {
@@ -1122,10 +1126,10 @@ blue {
         height: auto;
     }
     .numbers {
-        font-size: 15.2vw;
+        font-size: 14.2vw;
         line-height: 18.13333vw;
         margin-top: 8.53333vw;
-        margin-bottom: 5.21866vw;
+        margin-bottom: .5vw;
     }
     .numbers-2>.col-auto {
         padding-right: 13.33333vw;
@@ -1181,7 +1185,7 @@ blue {
         margin-bottom: 2.688rem;
     }
     .space-title {
-        font-size: 10.66666vw;
+        font-size: 9.66666vw;
         line-height: 12.26666vw;
     }
     .nav-pills .nav-link {
@@ -1342,10 +1346,10 @@ blue {
     .contac-2 {
         font-size: 4vw;
         line-height: 5.6vw;
-        margin-bottom: 0.813rem;
+        margin-bottom: 3.466vw;
     }
     .contac-3 {
-        margin-top: 0.375rem;
+        margin-top: 2.5vw;
         font-size: 2.4vw;
         line-height: 3.73333vw;
     }
@@ -1433,7 +1437,7 @@ blue {
         padding-right: 10px;
     }
     .w-4 {
-        padding-left: 1.5rem;
+        padding-left: 2.5rem;
     }
     .copy {
         height: 2.66666vw;
@@ -1544,6 +1548,13 @@ blue {
         padding-right: calc(var(--bs-gutter-x) * .25);
         margin-left: 2vw;
     }
+    .card-img-ind {
+        height: 35.256vw;
+        width: auto;
+    }
+    .contac-4 {
+        margin-bottom: 6.933vw;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1556,7 +1567,7 @@ blue {
 
 @media (min-width: 499px) and (max-width:767.5px) {
     .f-cont-2 {
-        font-size: 5.7vw;
+        font-size: 5.5vw;
     }
     .w-w-2 {
         font-size: 3.53333vw;
