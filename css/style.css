@@ -252,7 +252,8 @@ header .txt-14:hover {
     text-transform: uppercase;
     font-size: 1.04166vw;
     line-height: 1.5625vw;
-    margin-bottom: 2.3vw;
+    margin-bottom: 1vw;
+    /*2.3vw*/
     font-family: 'AvantGardeGothicC';
 }
 
@@ -318,7 +319,8 @@ header .txt-14:hover {
 
 .tabs-con,
 .why-we {
-    margin-top: 7.96875vw;
+    margin-top: 7vw;
+    /*7.96875vw*/
     margin-right: 0%;
 }
 
@@ -982,6 +984,11 @@ blue {
     margin-bottom: 5vw;
 }
 
+.arrow {
+    width: auto;
+    height: 2vw;
+}
+
 @media (max-width: 767.5px) {
     /*.card-img-ind {
         height: 46.656vw;
@@ -1470,7 +1477,7 @@ blue {
         padding-top: 1rem;
     }
     .card-center {
-        height: 5rem;
+        height: 4rem;
     }
     .nav-space {}
     .card-space-2 {
@@ -1592,7 +1599,7 @@ blue {
         margin: 0%
     }
     header {
-        padding-top: 1.5rem;
+        padding-top: 2vw;
     }
     .m-space {
         margin-bottom: 4.375rem;
@@ -1660,7 +1667,7 @@ blue {
         padding-right: 4.20%;
     }
     header {
-        padding-top: 3.56%;
+        padding-top: 2vw;
     }
     .menu {
         font-size: 1.31894vw;
@@ -1671,7 +1678,7 @@ blue {
         padding: 3px 8px;
     }
     .arrow {
-        width: 20px;
+        width: 2.5vw;
         height: auto;
     }
     footer {
@@ -2101,7 +2108,7 @@ blue {
         padding-left: 0.9375vw;
     }
     .arrow {
-        width: 27px;
+        width: 2vw;
         height: auto;
     }
     .f-cont-1 {
