@@ -131,7 +131,7 @@ header {
 .menu {
     font-style: normal;
     font-weight: bold;
-    font-size: 1.042vw;
+    font-size: .8042vw;
     line-height: 1.302vw;
     text-transform: uppercase;
     font-family: 'AvantGardeGothicC';
@@ -2618,7 +2618,7 @@ blue {
         width: 100%;
     }
     .footer-animation {
-        margin-top: 10rem;
+        margin-top: 13rem;
     }
     .img-1-2 {
         width: 100%;
