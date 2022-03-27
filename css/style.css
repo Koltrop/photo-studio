@@ -131,7 +131,8 @@ header {
 .menu {
     font-style: normal;
     font-weight: bold;
-    font-size: .8042vw;
+    font-size: 1.04166vw;
+    /*.8042*/
     line-height: 1.302vw;
     text-transform: uppercase;
     font-family: 'AvantGardeGothicC';
