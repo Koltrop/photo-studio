@@ -1004,12 +1004,16 @@ blue {
 }
 
 .navbar-nav.justify-content-end.flex-grow-1.pe-3>.nav-item {
-    margin-bottom: 5vw;
+    margin-bottom: 2.5vw;
 }
 
 .arrow {
     width: auto;
     height: 1.6vw;
+}
+
+.station-en {
+    padding-left: 0%;
 }
 
 @media (max-width: 767.5px) {
@@ -1042,7 +1046,7 @@ blue {
         padding-top: 0%;
     }
     .offcanvas-body.menu {
-        font-size: 9.6vw;
+        font-size: 9vw;
         line-height: 12vw;
     }
     .b-1 {
@@ -1102,7 +1106,7 @@ blue {
         margin-bottom: 5.144%;
     }
     .f-cont-2 {
-        font-size: 5.86666vw;
+        font-size: 5.36666vw;
         line-height: 6.66666vw;
         margin-bottom: 21.6%;
     }
@@ -1143,7 +1147,7 @@ blue {
         /*margin-bottom: 5.144%;*/
     }
     .cont-2 {
-        font-size: 7.5vw;
+        font-size: 7vw;
         line-height: 9.33333vw;
     }
     .list-group-item {
@@ -1219,11 +1223,11 @@ blue {
         line-height: 12.26666vw;
     }
     .nav-pills .nav-link {
-        font-size: 2.13333vw;
+        font-size: 1.9vw;
         line-height: 2.66666vw;
         margin-right: 0.375rem;
         margin-bottom: 2.188rem;
-        padding: 0.313rem 0.626rem;
+        padding: 0.313rem 0.526rem;
         border-radius: 3.30509vw;
         border: 0.001vw solid #000000;
     }
@@ -1585,6 +1589,9 @@ blue {
     .contac-4 {
         margin-bottom: 6.933vw;
     }
+    .row>.col-12.col-sm-12.col-md-6>.row.cont-1 {
+        margin-bottom: 8vw;
+    }
 }
 
 @media (max-width: 576px) {
@@ -1592,6 +1599,18 @@ blue {
         position: absolute;
         left: 50%;
         transform: translate(-50%, 0%);
+    }
+    .name-item {
+        font-size: 1.588rem;
+        line-height: 3.063rem;
+        height: 48px;
+    }
+    /*.txt-14 {
+        left: 95%!important;
+    }*/
+    .item-menu-footer>.col-auto {
+        padding-right: calc(var(--bs-gutter-x) * .25);
+        padding-left: calc(var(--bs-gutter-x) * .25);
     }
 }
 
@@ -2504,6 +2523,14 @@ blue {
     /*.img-1 {
         width: 479.39px;
     }*/
+    .name-item {
+        font-size: 5.063rem;
+        line-height: 5.313rem;
+    }
+    .size-item {
+        font-size: 2.25rem;
+        line-height: 1.75rem;
+    }
 }
 
 @media (min-width: 1366px) and (max-width: 1430px) {
