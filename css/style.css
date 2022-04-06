@@ -846,7 +846,7 @@ blue {
 
 .card-center {
     height: 11.188rem;
-    margin-left: 1.813rem;
+    margin-left: 1.513rem;
 }
 
 .card-center-space {
@@ -1016,6 +1016,10 @@ blue {
     padding-left: 0%;
 }
 
+.why-we>.cont-1 {
+    margin-bottom: 5vw;
+}
+
 @media (max-width: 767.5px) {
     /*.card-img-ind {
         height: 46.656vw;
@@ -1059,13 +1063,14 @@ blue {
     }
     .arrow {
         width: auto;
-        height: 3.3vw;
+        height: 3.2vw;
     }
     .movil-1 {
         margin-left: 33%;
     }
     .offcanvas-body {
-        margin-top: 35vw;
+        margin-top: 30vw;
+        /*35*/
     }
     .navbar-light .navbar-toggler {
         color: rgba(0, 0, 0, 0);
@@ -1148,7 +1153,8 @@ blue {
     }
     .cont-2 {
         font-size: 7vw;
-        line-height: 9.33333vw;
+        line-height: 8vw;
+        /*9.33333vw*/
     }
     .list-group-item {
         font-size: 2.4vw;
@@ -1219,7 +1225,8 @@ blue {
         margin-bottom: 2.688rem;
     }
     .space-title {
-        font-size: 9.66666vw;
+        font-size: 10.3vw;
+        /*10.66666*/
         line-height: 12.26666vw;
     }
     .nav-pills .nav-link {
@@ -1261,13 +1268,24 @@ blue {
         line-height: 2.4vw;
         padding-top: 0.25rem;
         padding-right: 0.5rem;
-        padding-bottom: 0.15rem;
+        padding-bottom: 0.5rem;
         padding-left: 0.5rem;
         border: 0.001vw solid #005BDE;
     }
     .foot-card-inf {
         font-size: 2.13vw;
         line-height: 3.2vw;
+    }
+    .foot-card-inf>.row>.col-auto {
+        padding-right: .5vw;
+    }
+    .foot-card-inf-2>.row>.col-auto {
+        padding-right: 10vw;
+        /*6*/
+    }
+    .index-foo-c {
+        padding-left: 3vw!important;
+        padding-right: 8vw!important;
     }
     blue {
         font-size: 3.73vw;
@@ -1472,13 +1490,13 @@ blue {
     }
     .txt-14 {
         /*left: 90%!important;*/
-        transform: translate(-60%, -50%)!important;
+        transform: translate(-110%, -50%)!important;
     }
     .item-menu-footer-2.f-2>.col-auto {
         padding-right: 10px;
     }
     .w-4 {
-        padding-left: 2.5rem;
+        padding-left: 1.5rem;
     }
     .copy {
         height: 2.66666vw;
@@ -1497,7 +1515,8 @@ blue {
         font-size: 0%;
     }
     .txt-bt {
-        padding-right: 1vw;
+        padding-right: 0.5vw;
+        font-family: "AvantGardeGothicC";
     }
     .sup-1 {
         padding-left: .1rem;
@@ -1582,6 +1601,15 @@ blue {
         align-items: center;
         align-content: center;
     }
+    .why-we>.cont-1 {
+        margin-bottom: 5vw;
+    }
+    .item-txt {
+        padding-left: 20vw;
+    }
+    .item-txt-2 {
+        padding-left: 6vw;
+    }
     .movil-4-number {
         padding-right: 16.25vw;
     }
@@ -1608,7 +1636,7 @@ blue {
         transform: translate(-50%, 0%);
     }
     .name-item {
-        font-size: 1.588rem;
+        font-size: 2rem;
         line-height: 3.063rem;
         height: 46px;
         border-bottom-width: .15rem;
