@@ -1268,7 +1268,7 @@ blue {
         line-height: 2.4vw;
         padding-top: 0.25rem;
         padding-right: 0.5rem;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.4rem;
         padding-left: 0.5rem;
         border: 0.001vw solid #005BDE;
     }
@@ -1280,7 +1280,7 @@ blue {
         padding-right: .5vw;
     }
     .foot-card-inf-2>.row>.col-auto {
-        padding-right: 10vw;
+        padding-right: 4.53333vw;
         /*6*/
     }
     .index-foo-c {
@@ -1492,11 +1492,18 @@ blue {
         /*left: 90%!important;*/
         transform: translate(-110%, -50%)!important;
     }
+    .menu-item-active>.txt-14 {
+        /* left: 90%!important; */
+        transform: translate(-50%, -50%)!important;
+    }
     .item-menu-footer-2.f-2>.col-auto {
         padding-right: 10px;
     }
     .w-4 {
         padding-left: 1.5rem;
+    }
+    .w-4-1 {
+        padding-left: 2rem;
     }
     .copy {
         height: 2.66666vw;
